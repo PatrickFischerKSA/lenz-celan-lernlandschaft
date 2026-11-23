@@ -62,3 +62,9 @@ Die symbolische Berggrafik wurde auf Nutzerwunsch durch eine echte, eingebettete
 - Geografisches Modell: eigens berechnete orthografische Projektion einer Kugel mit Blickbreite 15° und Blicklänge 25° West. Die Sichtbarkeit jedes Linienabschnitts ergibt sich aus seiner räumlichen Lage. Meridian und Gegenmeridian liegen 180° auseinander.
 - Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started — Direktlinks ohne API-Schlüssel. Die Einbettungs-URLs wurden zusätzlich im Browser auf tatsächliche Kartenanzeige geprüft.
 - Celans Kreisbild: bereitgestellte Meridian-Datei, Absatz M127. Der genaue Unterschied zwischen Meridian-Halbkreis und komplettem Grosskreis wird als geografische Erläuterung sichtbar gemacht.
+
+## Gemeinsame Google-Karte: Markierungen und Materialziele
+
+Die Importdateien `materialien/karten/buechner-celan-orte.kml` und `.geojson` enthalten alle sieben Ortslagen mit Namen und festen Materialzielen unter `#ort/<id>`. Die KML-Beschreibung jedes Punktes verlinkt Texte, Bilder und Aufgaben. Die Koordinaten wurden am 23. November 2026 aus der Eigenschaft P625 der Wikidata-Entitäten Q22907, Q6602, Q3483936, Q72, Q2973, Q90 und Q157725 gelesen; sie bezeichnen Ortslagen, keine exakt nachgewiesenen historischen Standpunkte.
+
+Die Erstellung einer gemeinsamen Karte über Google My Maps setzt die Anmeldung im Google-Konto voraus. Im Projekt war kein Maps-JavaScript-API-Schlüssel und keine entsprechende GitHub-Konfiguration vorhanden. Der bestehende Einbettungsmodus mit einem ausgewählten Ort kann die geforderte gleichzeitige Darstellung nicht leisten. Die eigentliche Umstellung auf die gemeinsame Google-Karte erfolgt erst mit deren zurückgelieferter Karten-ID.

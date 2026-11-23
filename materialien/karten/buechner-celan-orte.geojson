@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.213611,
+          48.414444
+        ]
+      },
+      "properties": {
+        "id": "waldersbach",
+        "name": "Waldersbach",
+        "region": "Elsass · Frankreich",
+        "period": "Lenz und Oberlin · 1778",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/waldersbach",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q22907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.752222,
+          48.573333
+        ]
+      },
+      "properties": {
+        "id": "strassburg",
+        "name": "Strassburg",
+        "region": "Elsass · Frankreich",
+        "period": "Büchner · 1830er-Jahre",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/strassburg",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q6602"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.76389,
+          46.4292
+        ]
+      },
+      "properties": {
+        "id": "sils",
+        "name": "Sils Maria",
+        "region": "Engadin · Schweiz",
+        "period": "Nietzsche · 1881 / 1883–1888; Celan · 1959",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/sils",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q3483936"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541111,
+          47.374444
+        ]
+      },
+      "properties": {
+        "id": "zuerich",
+        "name": "Zürich",
+        "region": "Schweiz",
+        "period": "Büchner · 1836–1837",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/zuerich",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.65,
+          49.866667
+        ]
+      },
+      "properties": {
+        "id": "darmstadt",
+        "name": "Darmstadt",
+        "region": "Hessen · Deutschland",
+        "period": "Celans Büchnerpreisrede · 22. Oktober 1960",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/darmstadt",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q2973"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.352222,
+          48.856667
+        ]
+      },
+      "properties": {
+        "id": "paris",
+        "name": "Paris",
+        "region": "Frankreich",
+        "period": "Celan · ab 1948",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/paris",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.934444,
+          48.290833
+        ]
+      },
+      "properties": {
+        "id": "czernowitz",
+        "name": "Czernowitz / Tscherniwzi",
+        "region": "Bukowina · heute Ukraine",
+        "period": "Celans Herkunft · 1920",
+        "destination": "https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/czernowitz",
+        "coordinateSource": "https://www.wikidata.org/wiki/Q157725"
+      }
+    }
+  ]
+}
