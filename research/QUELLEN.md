@@ -37,3 +37,5 @@ Originale vom Desktop des Nutzers, nicht in das Git-Repository kopiert, sondern 
 - ANTSCHEL Filmessay about Paul Celan.mp4 — 2728.507211 Sekunden, 1280×720, Bild/Ton.
 
 Poster: entnommene Originalframes bei 25 beziehungsweise 40 Sekunden. Keine vollständige Sichtung oder Transkription behauptet; keine erfundenen kapitelgenauen Filmzitate. Eine technische Playerprüfung ersetzt keine inhaltliche Vollsichtung.
+
+Eine zusätzliche Vergleichsspur untersucht die Selbstbezeichnung „ewiger Jude“ bei Lenz und Celans jüdische Sprecher. Der christliche, antijüdisch belastete Motivhintergrund und die geschichtliche Eigenständigkeit jüdischer Erfahrung nach der Shoah werden ausdrücklich unterschieden. Die Verbindung wird als Motivvergleich, nicht als behauptetes direktes Zitat im Gespräch behandelt.

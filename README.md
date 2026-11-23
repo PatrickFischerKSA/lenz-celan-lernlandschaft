@@ -14,7 +14,7 @@ https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/
 - Gespräch im Gebirg: Büchner-Bezug, Nietzsche-Konstellation, Adorno und das ausgebliebene Treffen.
 - Meridian: Kreatur und Automat, Gegenwort, Medusenhaupt, unmöglicher Schritt, Atemwende, geschichtliche Daten und Gegenüber.
 - Leseraum: vollständige Lenz-Fassung und Meridian aus der bereitgestellten DOCX; Hörzugang zum Gespräch über die vollständige DLA-Lesung. Für Gespräch ist eine Textausgabe parallel vorgesehen, etwa Gesammelte Werke III, S. 169–173.
-- Intertextualitätswerkstatt mit sieben unterscheidbaren Verbindungen; explizite Rückbezüge und Deutungshypothesen sind gekennzeichnet.
+- Intertextualitätswerkstatt mit acht unterscheidbaren Verbindungen; explizite Rückbezüge und Deutungshypothesen sind gekennzeichnet.
 - Zwei bereitgestellte Celan-Filme mit Protokollfeldern und Übernahme des aktuellen Abspielzeitpunkts.
 - Journal mit Forschungsfrage, Belegen, Gegenbeleg, Rückmeldung, Revision und Vergleichsessay.
 
