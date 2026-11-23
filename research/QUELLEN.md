@@ -39,3 +39,15 @@ Originale vom Desktop des Nutzers, nicht in das Git-Repository kopiert, sondern 
 Poster: entnommene Originalframes bei 25 beziehungsweise 40 Sekunden. Keine vollständige Sichtung oder Transkription behauptet; keine erfundenen kapitelgenauen Filmzitate. Eine technische Playerprüfung ersetzt keine inhaltliche Vollsichtung.
 
 Eine zusätzliche Vergleichsspur untersucht die Selbstbezeichnung „ewiger Jude“ bei Lenz und Celans jüdische Sprecher. Der christliche, antijüdisch belastete Motivhintergrund und die geschichtliche Eigenständigkeit jüdischer Erfahrung nach der Shoah werden ausdrücklich unterschieden. Die Verbindung wird als Motivvergleich, nicht als behauptetes direktes Zitat im Gespräch behandelt.
+
+
+## Ergänzung: Nietzsche-Haus und Textgebirge (23. November 2026)
+
+- Nutzerquelle: https://nietzschehaus.ch/de/ . Aktuelle Hauptseite gelesen; digitale Ausstellung https://ausstellung.nietzschehaus.ch/ direkt verlinkt. Keine aktuellen Öffnungszeiten oder Preise in die Lerntexte kopiert, sondern auf die offizielle Besucherinformation verwiesen.
+- Hausgeschichte: https://nietzschehaus.ch/das-nietzsche-haus-i/geschichte-des-hauses/ . Familie Durisch, Stiftung 1959, Museumseröffnung am 25. August 1960 und Neugestaltung 2021. Die Parallelität zu Celans Entstehungs- und Redejahren ist ein heutiger Vergleich; kein Besuch Celans im Museum wird behauptet.
+- Sommer 1881: https://nietzschehaus.ch/friedrich-nietzsche-in-sils-maria/thema-1/ . Sieben Aufenthalte 1881 und 1883–1888, Gesundheit, Wanderungen und Notizbücher.
+- Fassadenfoto: https://nietzschehaus.ch/wp-content/uploads/2014/11/nietzsche_haus-1280x400.jpg , lokal `assets/nietzsche-haus.jpg`.
+- Ausstellungsfoto mit skulpturalem Nietzsche-Kopf und Treppenhaus: https://nietzschehaus.ch/wp-content/uploads/2021/07/DSC06406-3-e-600x450.jpg , lokal `assets/nietzsche-ausstellung.jpg`. Es wird nicht als Nietzsches historisches Arbeitszimmer beschriftet. Fotografennamen sind bei diesen Bildern auf der Hauptseite nicht genannt.
+- Gebirgszeichnung: neue SVG-Grafik mit eigens gesetzten Begriffswegen. Kein kartografischer Anspruch, keine geografische Gleichsetzung von Elsass und Engadin.
+
+Die Nietzsche-Haus-Station verbindet dokumentierte Ortsgeschichte mit eigenen Aufgaben zu Bildlichkeit, Wandern und Anrede. Die Unterscheidung zwischen Quellenaussage und vergleichender Interpretation bleibt sichtbar.

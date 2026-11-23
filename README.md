@@ -1,16 +1,25 @@
 # Durchs Gebirg · Büchner & Celan
 
-Eigenständige Lernlandschaft für die Sekundarstufe II: Georg Büchners **Lenz**, Paul Celans **Gespräch im Gebirg** und **Der Meridian**. Ausgangspunkt ist das Elsass mit Waldersbach und Oberlin. Von dort führen die Textspuren zu Nietzsche, zur versäumten Begegnung mit Adorno im Engadin und zu Celans Poetik der Begegnung.
+Interaktives **Textgebirge** für die Sekundarstufe II: Georg Büchners **Lenz**, Paul Celans **Gespräch im Gebirg** und **Der Meridian**. Ausgangspunkt ist das Elsass mit Waldersbach und Oberlin. Von dort führen die Textspuren zu Nietzsche, zur versäumten Begegnung mit Adorno im Engadin und zu Celans Poetik der Begegnung.
 
 ## Website
 
 https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/
+
+## Textgebirge und Nietzsche-Haus
+
+Die Startseite inszeniert die Bezüge als schematisches Gebirge mit Wortpfaden und acht auswählbaren Stationen. Die Auswahl öffnet einen kontextuellen Einstieg mit Foto oder Typografie und einem direkten Weg zum Lernmaterial. Eine ergänzende Auswahl unter der Landschaft ist per Tastatur bedienbar. Auf schmalen Bildschirmen lässt sich das Gebirge horizontal verschieben; der gewählte Ort rückt in den sichtbaren Ausschnitt.
+
+Ein Höhenweg verbindet alle Inhaltsansichten. Die neue Station `#nietzschehaus` enthält die Fassade und ein Ausstellungsbild der offiziellen Website, Informationen zu Nietzsches Aufenthalten und Wanderungen, einen Blick auf die Hausgeschichte sowie einen Vergleich mit Oberlins Haus. Die Aufgaben führen von einer Bild- oder Exponatbeobachtung zu Nietzsche und Celan. Die digitale Museumsausstellung ist direkt verlinkt.
+
+Die Journalfelder `haus` und `gebirge` ergänzen das bestehende Schema. Vorhandene Sicherungen und gespeicherte Antworten bleiben kompatibel. Die Metapher ist ausdrücklich keine geografische Karte und keine Rangordnung der Texte.
 
 ## Lernwege
 
 - Elsass: heutige Waldersbach-Fotografie und Reiseeindruck aus Patrick Fischers Zurichstories; Oberlins Bericht und Büchners Erzählung als verschiedene Perspektiven.
 - Lebenswege: historischer Lenz, Büchner im Vormärz und Celan nach der Shoah; historische Differenzen ausdrücklich erhalten.
 - Lenz: Erzählperspektive, Raumwahrnehmung, Fürsorge und Kunstgespräch.
+- Nietzsche-Haus: Wohnen, Gehen und Schreiben in Sils Maria; Hausgeschichte und Exponate als Ausgangspunkt eigener Textvergleiche.
 - Gespräch im Gebirg: Büchner-Bezug, Nietzsche-Konstellation, Adorno und das ausgebliebene Treffen.
 - Meridian: Kreatur und Automat, Gegenwort, Medusenhaupt, unmöglicher Schritt, Atemwende, geschichtliche Daten und Gegenüber.
 - Leseraum: vollständige Lenz-Fassung und Meridian aus der bereitgestellten DOCX; Hörzugang zum Gespräch über die vollständige DLA-Lesung. Für Gespräch ist eine Textausgabe parallel vorgesehen, etwa Gesammelte Werke III, S. 169–173.
