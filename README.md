@@ -71,3 +71,11 @@ node --test tests/*.test.mjs
 ```
 
 Der Workflow `.github/workflows/pages.yml` prüft die Anwendung und veröffentlicht ausschliesslich Website-Dateien, Assets und Unterrichtsmaterialien auf GitHub Pages. Änderungen auf `main` lösen die Veröffentlichung aus.
+
+## Strassburg, Lebenswege und Migration
+
+Die Ortsseite `#ort/strassburg` erschliesst Goethe, Herder, den Salzmann-Kreis und Lenz um 1770/1771 sowie die Verbindungen zur Darmstädter Empfindsamkeit und zu Lavater in Zürich. Schillers spätere Konstellation um Stuttgart und Mannheim wird zeitlich getrennt erläutert. Büchners Studien- und Exilort wird mit dieser Vorgeschichte in Beziehung gesetzt.
+
+`#wege` bietet sechs Profile mit datierten Stationen, Textzugängen, Quellen und Journalaufgaben. Die Google-My-Maps-Ebene „Reisen & Migration · datierte Stationen“ enthält 22 Objekte: sechs schematische Lebenswege, 15 zusätzliche Ortsmarkierungen und eine ausdrücklich literarische Engadin-Verbindung von 1959. Darstellung nach Person: Lenz grün, Büchner türkis, Celan magenta, Adorno violett, Goethe orange, Schiller braun; Bezug 1959 grau. Die Linien sind keine rekonstruierten Reisewege und die Karte verwendet heutige Ortslagen. Adornos Oxford–New York–Los-Angeles–Frankfurt-Konstellation lässt sich über den Weltansichtslink verfolgen.
+
+Daten und Darstellung: `journeys.js`. `node scripts/build-journey-map.mjs` erzeugt JSON und TSV unter `materialien/karten/`. Die bereits autorisierte Google-Tabelle enthält das neue Blatt mit GID 1686667842. Für den My-Maps-Import wurde es vorübergehend als erstes Blatt angeordnet; danach wurde die ursprüngliche erste Tabelle wieder vorangestellt. Die importierte Karte ist eine Kopie der Tabellenwerte und aktualisiert sich nicht automatisch.

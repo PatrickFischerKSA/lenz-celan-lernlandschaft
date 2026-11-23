@@ -19,11 +19,12 @@ function render(){
  const parts=location.hash.slice(1).split('/');let page=parts[0]||'auftakt';if(page==='aufbruch')page='auftakt';if(page==='main')return;
  main.querySelectorAll('video').forEach(v=>v.pause());
  if(page==='ort'){main.innerHTML=placePage(parts[1]);}
+ else if(page==='wege'){main.innerHTML=journeyPage(parts[1]);}
  else if(page==='leseraum'){main.innerHTML=readerShell();currentReader=['lenz','meridian','gespraech'].includes(parts[1])?parts[1]:'lenz';loadReader();}
  else if(Object.hasOwn(pages,page)){main.innerHTML=pages[page]();if(page==='leben')showLife('lenz');if(page==='spuren')showConnection(0);}
  else main.innerHTML=`<div class="wrap narrow"><h1>Dieser Weg ist noch offen.</h1><p>Die gesuchte Station gibt es nicht.</p><a href="#auftakt">Zum Anfang der Lernlandschaft</a></div>`;
  if(page!=='auftakt')main.insertAdjacentHTML('afterbegin',ridgeTrail(page==='leseraum'?currentReader:page));
- document.title=`${page==='ort'?(atlasPlaces.find(p=>p.id===parts[1])?.name||'Ort'):page==='leseraum'?'Leseraum':route.find(r=>r[0]===page)?.[1]||'Durchs Gebirg'} · Büchner & Celan`;
+ document.title=`${page==='ort'?(atlasPlaces.find(p=>p.id===parts[1])?.name||'Ort'):page==='wege'?(journeys.find(j=>j.id===parts[1])?.short||'Wege & Exil'):page==='leseraum'?'Leseraum':route.find(r=>r[0]===page)?.[1]||'Durchs Gebirg'} · Büchner & Celan`;
  document.querySelectorAll('.topbar nav a').forEach(a=>{const h=a.getAttribute('href').slice(1);if(h===page||(h==='aufbruch'&&page==='auftakt'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  document.getElementById('navigation').classList.remove('open');document.getElementById('menu-toggle').setAttribute('aria-expanded','false');restoreFields();window.scrollTo({top:0,behavior:'instant'});main.focus({preventScroll:true});globeMode=1;
 }

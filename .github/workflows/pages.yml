@@ -21,11 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --check content.js && node --check app.js && node --check atlas.js && node --test tests/*.test.mjs
+      - run: node --check content.js && node --check app.js && node --check atlas.js && node --check journeys.js && node --test tests/*.test.mjs
       - name: Prepare site files
         run: |
           mkdir _site
-          cp index.html styles.css app.js content.js atlas.js .nojekyll _site/
+          cp index.html styles.css app.js content.js atlas.js journeys.js .nojekyll _site/
           cp -R assets materialien _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
