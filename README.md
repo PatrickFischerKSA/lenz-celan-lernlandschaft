@@ -1,18 +1,20 @@
 # Durchs Gebirg · Büchner & Celan
 
-Interaktives **Textgebirge** für die Sekundarstufe II: Georg Büchners **Lenz**, Paul Celans **Gespräch im Gebirg** und **Der Meridian**. Ausgangspunkt ist das Elsass mit Waldersbach und Oberlin. Von dort führen die Textspuren zu Nietzsche, zur versäumten Begegnung mit Adorno im Engadin und zu Celans Poetik der Begegnung.
+Geografische und intertextuelle **Lernlandschaft** für die Sekundarstufe II: Georg Büchners **Lenz**, Paul Celans **Gespräch im Gebirg** und **Der Meridian**. Ausgangspunkt ist das Elsass mit Waldersbach und Oberlin. Von dort führen die Textspuren zu Nietzsche, zur versäumten Begegnung mit Adorno im Engadin und zu Celans Poetik der Begegnung.
 
 ## Website
 
 https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/
 
-## Textgebirge und Nietzsche-Haus
+## Google Maps und der Meridian
 
-Die Startseite inszeniert die Bezüge als schematisches Gebirge mit Wortpfaden und acht auswählbaren Stationen. Die Auswahl öffnet einen kontextuellen Einstieg mit Foto oder Typografie und einem direkten Weg zum Lernmaterial. Eine ergänzende Auswahl unter der Landschaft ist per Tastatur bedienbar. Auf schmalen Bildschirmen lässt sich das Gebirge horizontal verschieben; der gewählte Ort rückt in den sichtbaren Ausschnitt.
+Die Startseite enthält eine echte Google-Maps-Einbettung mit benannter Ortsauswahl: Waldersbach, Strassburg, Sils Maria, Zürich, Darmstadt, Paris und Czernowitz/Tscherniwzi. Eine Europaübersicht zeigt die geografischen Räume; die Wahl eines Ortes zentriert die Karte auf den zugehörigen Ort und zeigt biografischen bzw. literarischen Kontext. Der Direktlink erlaubt das Öffnen in Google Maps. Die Karte nutzt Google-Maps-Einbettungs-URLs ohne hinterlegten API-Schlüssel. Die Orte werden einzeln ausgewählt, nicht als erfundene historische Reiseroute verbunden.
 
-Ein Höhenweg verbindet alle Inhaltsansichten. Die neue Station `#nietzschehaus` enthält die Fassade und ein Ausstellungsbild der offiziellen Website, Informationen zu Nietzsches Aufenthalten und Wanderungen, einen Blick auf die Hausgeschichte sowie einen Vergleich mit Oberlins Haus. Die Aufgaben führen von einer Bild- oder Exponatbeobachtung zu Nietzsche und Celan. Die digitale Museumsausstellung ist direkt verlinkt.
+Ein berechneter orthografischer Globus erklärt geografische Länge. Drei Modi zeigen einen Meridian, den vollständigen Grosskreis aus Meridian und Gegenmeridian sowie das Gradnetz. Der Längengrad lässt sich zwischen 180° West und 180° Ost verstellen. Sichtbare und rückwärtige Linienabschnitte werden unterschieden. Meridiane treffen sich an beiden Polen; Breitengrade und Äquator werden separat berechnet.
 
-Die Journalfelder `haus` und `gebirge` ergänzen das bestehende Schema. Vorhandene Sicherungen und gespeicherte Antworten bleiben kompatibel. Die Metapher ist ausdrücklich keine geografische Karte und keine Rangordnung der Texte.
+Der fachliche Unterschied zwischen dem Meridian als Halbkreis und dem vollen Grosskreis wird erklärt. Die Übertragung auf Celans Bild geschieht mit dem Beleg M127 aus der bereitgestellten Datei. Die Orte der Karte werden nicht so dargestellt, als lägen sie alle auf demselben Längengrad. Geografische Quellen: NOAA und University of Cambridge, auf der Seite verlinkt. Direkter Erklärraum: `#meridianbild`.
+
+Die Station `#nietzschehaus` enthält Hausbilder, Ortsgeschichte und den Zugang zur digitalen Ausstellung. Die bestehenden Journaldaten und Sicherungsdateien bleiben kompatibel; das bisherige Feld `gebirge` wird unter einer neuen, sachlichen Beschriftung weiterverwendet.
 
 ## Lernwege
 
@@ -43,7 +45,7 @@ Die bereitgestellte Datei `materialien/Celan_Meridian.docx` bleibt unverändert.
 
 Statische HTML/CSS/JavaScript-Anwendung ohne Build-Abhängigkeiten, Login oder Backend. Lernendenantworten werden ausschliesslich in `localStorage` dieses Browsers unter `durchs-gebirg-journal-v1` gespeichert. Die Website synchronisiert keine Einträge mit GitHub und besitzt keine gemeinsame Klassenablage.
 
-Export als Text sowie JSON-Sicherung und validierter Import mit vorheriger Bestätigung. Der Druck des Journals enthält die Antworten. Bei gesperrtem Browser-Speicher wird auf die Sicherung verwiesen. Externe Dienste erhalten erst beim Öffnen von Quellen oder Medien Anfragen; die YouTube-Lesung wird erst nach bewusster Aktivierung eingebettet.
+Export als Text sowie JSON-Sicherung und validierter Import mit vorheriger Bestätigung. Der Druck des Journals enthält die Antworten. Bei gesperrtem Browser-Speicher wird auf die Sicherung verwiesen. Google Maps wird beim Öffnen der Kartenansicht direkt geladen; dabei gelten die Bedingungen und Datenschutzhinweise des Kartenanbieters. Journalantworten werden nicht an Google übertragen. Die YouTube-Lesung wird erst nach bewusster Aktivierung eingebettet.
 
 ## Lokal starten
 
@@ -58,6 +60,7 @@ Danach http://localhost:4175 öffnen. Der Leseraum benötigt HTTP, ein direktes 
 ```sh
 node --check content.js
 node --check app.js
+node --check atlas.js
 node --test tests/*.test.mjs
 ```
 

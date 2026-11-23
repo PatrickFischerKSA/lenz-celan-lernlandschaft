@@ -51,3 +51,14 @@ Eine zusätzliche Vergleichsspur untersucht die Selbstbezeichnung „ewiger Jude
 - Gebirgszeichnung: neue SVG-Grafik mit eigens gesetzten Begriffswegen. Kein kartografischer Anspruch, keine geografische Gleichsetzung von Elsass und Engadin.
 
 Die Nietzsche-Haus-Station verbindet dokumentierte Ortsgeschichte mit eigenen Aufgaben zu Bildlichkeit, Wandern und Anrede. Die Unterscheidung zwischen Quellenaussage und vergleichender Interpretation bleibt sichtbar.
+
+
+## Überarbeitung: Google Maps und geografischer Meridian
+
+Die symbolische Berggrafik wurde auf Nutzerwunsch durch eine echte, eingebettete Google-Karte mit sieben benannten Orten und einer Europaübersicht ersetzt. Die Ortsauswahl fragt Google nach den Ortsnamen; es werden keine erfundenen Ortskoordinaten als Quellenbefund ausgegeben. Verbindungen sind literarische und biografische Bezüge, keine behaupteten gemeinsamen Reisewege.
+
+- NOAA: https://oceanservice.noaa.gov/facts/longitude.html — geografische Länge, Meridiane und Pole.
+- University of Cambridge, Underground Mathematics: https://undergroundmathematics.org/glossary/meridian — Halbkreis, rechtwinkliger Schnitt mit dem Äquator, gleicher Längengrad.
+- Geografisches Modell: eigens berechnete orthografische Projektion einer Kugel mit Blickbreite 15° und Blicklänge 25° West. Die Sichtbarkeit jedes Linienabschnitts ergibt sich aus seiner räumlichen Lage. Meridian und Gegenmeridian liegen 180° auseinander.
+- Google Maps URLs: https://developers.google.com/maps/documentation/urls/get-started — Direktlinks ohne API-Schlüssel. Die Einbettungs-URLs wurden zusätzlich im Browser auf tatsächliche Kartenanzeige geprüft.
+- Celans Kreisbild: bereitgestellte Meridian-Datei, Absatz M127. Der genaue Unterschied zwischen Meridian-Halbkreis und komplettem Grosskreis wird als geografische Erläuterung sichtbar gemacht.
