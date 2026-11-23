@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\nthis.atlas={atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination};',ctx);
+vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\nthis.atlas={atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome};',ctx);
 const a=ctx.atlas;
-test('every named location has a distinct Google map and an existing learning destination',()=>{
- assert.equal(a.atlasPlaces.length,7);
- const queries=new Set();
- for(const place of a.atlasPlaces){const url=new URL(a.googleMapURL(place));assert.equal(url.hostname,'maps.google.com');assert.equal(url.searchParams.get('q'),place.query);assert.equal(url.searchParams.get('output'),'embed');assert.ok(a.pages[place.section]);queries.add(place.query);}
- assert.equal(queries.size,7);
+test('the home embeds one shared map and preserves access to all seven locations',()=>{
+ const html=a.geographicHome(),url=new URL(a.googleMapURL());
+ assert.equal(url.hostname,'www.google.com');assert.equal(url.pathname,'/maps/d/embed');assert.equal(url.searchParams.get('mid'),'1_ronZMZXcEvYeXI4hbIlfaCIQfCxtY8');
+ assert.equal((html.match(/<iframe /g)||[]).length,1);assert.ok(!html.includes('data-place='));assert.equal(a.atlasPlaces.length,7);
+ for(const place of a.atlasPlaces){assert.ok(html.includes('href="#ort/'+place.id+'"'));assert.ok(a.pages[place.section]);}
 });
 test('all meridians meet at exactly the same north and south poles',()=>{
  for(const lat of [-90,90]){const pole=a.globeProjection(lat,0);for(const lon of [-180,-90,10,90,180]){const p=a.globeProjection(lat,lon);assert.ok(Math.abs(p.x-pole.x)<1e-9);assert.ok(Math.abs(p.y-pole.y)<1e-9);}}

@@ -8,7 +8,9 @@ https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/
 
 ## Google Maps und der Meridian
 
-Die Startseite enthält eine echte Google-Maps-Einbettung mit benannter Ortsauswahl: Waldersbach, Strassburg, Sils Maria, Zürich, Darmstadt, Paris und Czernowitz/Tscherniwzi. Eine Europaübersicht zeigt die geografischen Räume; die Wahl eines Ortes zentriert die Karte auf den zugehörigen Ort und zeigt biografischen bzw. literarischen Kontext. Der Direktlink erlaubt das Öffnen in Google Maps. Die Karte nutzt Google-Maps-Einbettungs-URLs ohne hinterlegten API-Schlüssel. Die Orte werden einzeln ausgewählt, nicht als erfundene historische Reiseroute verbunden.
+Die Startseite bettet eine gemeinsame Google-My-Maps-Karte mit allen sieben Ortsmarkierungen ein: Waldersbach, Strassburg, Sils Maria / Nietzsche-Haus, Zürich, Darmstadt, Paris und Czernowitz/Tscherniwzi. Die Ebene verwendet die Namen als Beschriftungen. Google kann überlappende Labels bei kleinen Massstäben ausblenden; die vollständige Ortsliste bleibt verfügbar. Ein Klick auf einen Punkt öffnet dessen Kontext und Materiallink; dieser führt zur Ortsseite mit Texten, Bildern und Journalaufgaben. Zusätzliche Direktzugänge stehen unter der Karte. Die Auswahl ersetzt oder entfernt keine anderen Punkte.
+
+Karte: https://www.google.com/maps/d/viewer?mid=1_ronZMZXcEvYeXI4hbIlfaCIQfCxtY8 — im Google-Konto des Nutzers angelegt, für alle mit Link lesbar. Bearbeiten über My Maps im Eigentümerkonto. Keine API-Schlüssel erforderlich. Die Ortskoordinaten stammen aus Wikidata (Details im Quellenprotokoll). `node scripts/build-map-import.mjs` regeneriert die KML- und GeoJSON-Sicherungen aus den Ortsdaten; die veröffentlichte My-Maps-Karte wird separat gepflegt.
 
 Ein berechneter orthografischer Globus erklärt geografische Länge. Drei Modi zeigen einen Meridian, den vollständigen Grosskreis aus Meridian und Gegenmeridian sowie das Gradnetz. Der Längengrad lässt sich zwischen 180° West und 180° Ost verstellen. Sichtbare und rückwärtige Linienabschnitte werden unterschieden. Meridiane treffen sich an beiden Polen; Breitengrade und Äquator werden separat berechnet.
 
