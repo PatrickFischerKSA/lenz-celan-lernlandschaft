@@ -12,6 +12,8 @@ Die Startseite bettet eine gemeinsame Google-My-Maps-Karte mit allen sieben Orts
 
 Karte: https://www.google.com/maps/d/viewer?mid=1_ronZMZXcEvYeXI4hbIlfaCIQfCxtY8 — im Google-Konto des Nutzers angelegt, für alle mit Link lesbar. Bearbeiten über My Maps im Eigentümerkonto. Keine API-Schlüssel erforderlich. Die Ortskoordinaten stammen aus Wikidata (Details im Quellenprotokoll). `node scripts/build-map-import.mjs` regeneriert die KML- und GeoJSON-Sicherungen aus den Ortsdaten; die veröffentlichte My-Maps-Karte wird separat gepflegt.
 
+Eine weitere blaue Vergleichslinie bei **8,6° Ost** verläuft nahe Frankfurt am Main und Zürich (ebenfalls 36–64° Nord). Sie liegt auf einer eigenen Kartenebene und lässt sich separat ein- und ausblenden.
+
 Die zusätzliche Ebene „Celans Meridian · 26° Ost“ zeigt einen exakten Nord-Süd-Abschnitt bei 26° Ost (36–64° Nord) sowie Seßwegen/Cesvaine und Czortków/Tschortkiw. Czernowitz bleibt am vorhandenen Punkt. Bezug: Celans Herkunftssuche nach Lenz, Franzos und sich selbst; geografische Zuordnung nach Sandro Zanetti, *Celans Lanzen*, S. 61–62. Die Rede selbst nennt keine Gradzahl. KML-Sicherung: `materialien/karten/celan-meridian-26-ost.kml`.
 
 Ein berechneter orthografischer Globus startet bei 26° Ost als vollständiger Kreis durch beide Pole und erklärt geografische Länge. Drei Modi zeigen einen Meridian, den vollständigen Grosskreis aus Meridian und Gegenmeridian sowie das Gradnetz. Der Längengrad lässt sich zwischen 180° West und 180° Ost verstellen. Sichtbare und rückwärtige Linienabschnitte werden unterschieden. Meridiane treffen sich an beiden Polen; Breitengrade und Äquator werden separat berechnet.
