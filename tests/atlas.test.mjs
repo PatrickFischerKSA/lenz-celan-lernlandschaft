@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\nthis.atlas={atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome};',ctx);
+vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\nthis.atlas={atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
 const a=ctx.atlas;
 test('the home embeds one shared map and preserves access to all seven locations',()=>{
  const html=a.geographicHome(),url=new URL(a.googleMapURL());
@@ -20,4 +20,15 @@ test('globe works at longitude limits and distinguishes the complete great circl
 
 test('every marker opens an existing page containing an image, readings and a journal task',()=>{
  for(const p of a.atlasPlaces){const h=a.placePage(p.id);assert.ok(h.includes('<img '));assert.ok(h.includes('Texte & Materialien'));assert.ok(h.includes('data-field='));assert.equal(a.placeDestination(p.id),'https://patrickfischerksa.github.io/lenz-celan-lernlandschaft/#ort/'+p.id);assert.ok(a.placeMaterials[p.id].texts.length>=2);assert.ok(p.lat>-90&&p.lat<90&&p.lng>-180&&p.lng<180);}
+});
+
+test('Celan reference connects the three distinct origins near 26 E and starts with the full circle',()=>{
+ assert.equal(a.celanMeridianLongitude,26);assert.equal(a.meridianOrigins.length,3);
+ for(const p of a.meridianOrigins)assert.ok(Math.abs(p.longitude-26)<0.5);
+ assert.equal(new Set(a.meridianOrigins.map(p=>p.longitude)).size,3);
+ const html=a.meridianExplainer();assert.ok(html.includes('value="26"'));assert.ok(html.includes('26° Ost'));assert.ok(html.includes('class="globe-antimeridian '));assert.ok(html.includes('class="globe-tropic '));assert.ok(html.includes('data-celan-meridian'));
+ const kml=fs.readFileSync(new URL('../materialien/karten/celan-meridian-26-ost.kml',import.meta.url),'utf8');
+ const line=kml.match(/<LineString>[\s\S]*?<coordinates>([^<]+)<\/coordinates>/)[1].trim().split(/\s+/).map(c=>c.split(',').map(Number));
+ assert.ok(line.every(([lon])=>lon===26));assert.ok(line[0][1]<48&&line.at(-1)[1]>57);
+ assert.ok(kml.includes('kein genauer Geburtsstandort'));assert.ok(kml.includes('nicht das Forsthaus'));
 });
