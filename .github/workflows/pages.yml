@@ -17,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,6 +49,16 @@ jobs:
           exit 1
       - name: Deploy
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT }}
+      - name: Allow artifact service to synchronize
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: Retry Pages deployment
+        if: steps.deployment.outcome == 'failure'
+        id: deployment_retry
         uses: actions/deploy-pages@v4
         with:
           artifact_name: ${{ env.PAGES_ARTIFACT }}
