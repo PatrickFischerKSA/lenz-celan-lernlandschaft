@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
+vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={stationThreads,learningStations,readerWeave,atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
 const a=ctx.atlas;
 test('the home embeds one shared map and preserves access to all seven locations',()=>{
  const html=a.geographicHome(),url=new URL(a.googleMapURL());
@@ -31,4 +31,20 @@ test('Celan reference connects the three distinct origins near 26 E and starts w
  const line=kml.match(/<LineString>[\s\S]*?<coordinates>([^<]+)<\/coordinates>/)[1].trim().split(/\s+/).map(c=>c.split(',').map(Number));
  assert.ok(line.every(([lon])=>lon===26));assert.ok(line[0][1]<48&&line.at(-1)[1]>57);
  assert.ok(kml.includes('kein genauer Geburtsstandort'));assert.ok(kml.includes('nicht das Forsthaus'));
+});
+
+
+test('learning paths connect existing stations, places and readers in both directions',()=>{
+ const home=a.learningStations();assert.equal((home.match(/class="route-stop"/g)||[]).length,10);
+ for(const [station,thread] of Object.entries(a.stationThreads)){
+  assert.ok(a.pages[station]||station==='wege',station);
+  assert.ok(thread.transfer.length>80);
+  for(const [href] of thread.links){
+   const [page,id]=href.slice(1).split('/');
+   if(page==='ort')assert.ok(a.atlasPlaces.some(p=>p.id===id),href);
+   else if(page==='leseraum')assert.ok(['lenz','gespraech','meridian'].includes(id),href);
+   else if(page!=='wege')assert.ok(a.pages[page],href);
+  }
+ }
+ for(const id of ['lenz','gespraech','meridian'])assert.ok(a.readerWeave(id).includes('href="#'+id+'"'));
 });
