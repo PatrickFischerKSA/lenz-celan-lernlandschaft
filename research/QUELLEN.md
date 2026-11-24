@@ -100,3 +100,9 @@ Ortslagen neuer Stationen: GeoNames, `cities15000.zip`, https://download.geoname
 ## Klares Celan-Porträt im Auftakt
 
 Paul Celan in Bukarest, 1945/1946. Fotograf/in unbekannt; nach Petre Solomon, *Paul Celan: dimensiunea românească*, Kriterion, Bukarest 1987. Bild und Herkunfts-/Rechteangaben: https://commons.wikimedia.org/wiki/File:Paul_Celan_1945.jpg ; dort als Public Domain (PD-RO-photo) ausgewiesen. Original 710 × 1025 Pixel, abgerufen 24. November 2026. Lokal: `assets/celan-bukarest.jpg`. Die Rasterung stammt von der historischen Druckvorlage.
+
+## Historische Stadtbilder im Einstieg
+
+Links: Darmstadt, Marktplatz, um 1900 (1890–1905), Photochromdruck, Fotograf/in unbekannt, Library of Congress LC-DIG-ppmsca-00820; über https://commons.wikimedia.org/wiki/File:Darmstadt_um_1900.jpg , dort Public Domain / keine bekannten Nutzungseinschränkungen. Lokal `assets/darmstadt-historisch.jpg`. Die Ansicht entstand nach Büchners Lebenszeit; dies steht unter dem Einstieg.
+
+Rechts: Czernowitz, Ringplatz mit Strassenbahn, 1912 laut Bilddatensatz; Siemens-Schuckert-Firmenbroschüre, Fotograf/in unbekannt. https://commons.wikimedia.org/wiki/File:Straßenbahn_Czernowitz,_Ringplatz.jpg , dort Public Domain (PD-US-expired). Lokal `assets/czernowitz-historisch.jpg`. Abgerufen 24. November 2026. Die Originaldateien bleiben unverändert; Unschärfe, Entsättigung und Überblendung erfolgen ausschliesslich per CSS.
