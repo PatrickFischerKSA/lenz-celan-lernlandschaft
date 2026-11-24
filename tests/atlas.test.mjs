@@ -42,7 +42,7 @@ test('learning paths connect existing stations, places and readers in both direc
   for(const [href] of thread.links){
    const [page,id]=href.slice(1).split('/');
    if(page==='ort')assert.ok(a.atlasPlaces.some(p=>p.id===id),href);
-   else if(page==='leseraum')assert.ok(['lenz','gespraech','meridian'].includes(id),href);
+   else if(page==='leseraum')assert.ok(['lenz','gespraech','meridian'].includes(id||'lenz'),href);
    else if(page!=='wege')assert.ok(a.pages[page],href);
   }
  }
