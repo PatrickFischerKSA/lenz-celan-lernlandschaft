@@ -83,3 +83,7 @@ Daten und Darstellung: `journeys.js`. `node scripts/build-journey-map.mjs` erzeu
 ## Büchner-Protokoll
 
 Die Station `#buechnerfilm` enthält den bereitgestellten Film (3sat 2013 laut Dateititel, 44:41 Minuten), einen nativen Player, einen alternativen Dateilink und das separate Journalfeld `filmbuechner` mit Zeitmarkenfunktion. Zugänge befinden sich in Lebenswege & Zeiten, im Büchner-Reiseprofil, bei Strassburg und Zürich sowie im Celan-Filmraum. H.264/AAC, 632×360; Standbild aus 00:25. Die Originaldatei liegt unverändert im bestehenden Materialien-Release. Technisch geprüft und Standbild gesichtet; keine vollständige Transkription oder inhaltliche Sichtung behauptet.
+
+## Lesungen und Leitfragen
+
+Die beiden bereitgestellten MP3-Lesungen liegen unverändert im vorhandenen Materialien-Release: Lenz / Wanja Mues (70:00), Gespräch im Gebirg / Hanns Zischler (11:34). Native Audioplayer mit `preload="none"` erscheinen auf den jeweiligen Textstationen und in den Leserräumen. Beim Stationswechsel wird die Wiedergabe angehalten. Die Video-Lesung bleibt als optionale Alternative erreichbar. Die Leitfragen enthalten konkrete sprachliche / mediale Untersuchungsaufträge; kontextbezogene Vorbemerkungen erläutern vorab politische Flucht, Engadinreise oder die literarische Denkbewegung und trennen Autor, Figur und historische Situation. Metadaten technisch geprüft; keine vollständige Transkription behauptet.
