@@ -5,8 +5,11 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
+env:
+  PAGES_ARTIFACT: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -31,6 +34,21 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+          name: ${{ env.PAGES_ARTIFACT }}
+      - name: Wait for artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_API: repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts
+        run: |
+          for attempt in $(seq 1 12); do
+            artifact_id=$(gh api "$ARTIFACT_API" --jq ".artifacts[] | select(.name == \"$PAGES_ARTIFACT\") | .id")
+            if [ -n "$artifact_id" ]; then exit 0; fi
+            sleep 5
+          done
+          echo "::error::Pages artifact metadata did not become available."
+          exit 1
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT }}
