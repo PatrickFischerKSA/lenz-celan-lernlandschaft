@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={stationThreads,learningStations,readerWeave,atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
+vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={meridianGuide,stationThreads,learningStations,readerWeave,atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
 const a=ctx.atlas;
 test('the home embeds one shared map and preserves access to all seven locations',()=>{
  const html=a.geographicHome(),url=new URL(a.googleMapURL());
@@ -47,4 +47,21 @@ test('learning paths connect existing stations, places and readers in both direc
   }
  }
  for(const id of ['lenz','gespraech','meridian'])assert.ok(a.readerWeave(id).includes('href="#'+id+'"'));
+});
+
+
+test('meridian explanations are linked from the map and stay on their own topic pages',()=>{
+ const home=a.geographicHome();
+ assert.ok(!home.includes('id="meridian-globe"'));
+ assert.ok(!home.includes('class="celan-map-reading"'));
+ for(const topic of ['geografie','celan','vergleich']){
+  assert.ok(home.includes('href="#meridianbild/'+topic+'"'));
+  const page=a.meridianGuide(topic);
+  assert.ok(page.includes('href="#auftakt/karte"'));
+  assert.ok(page.includes('href="#meridianbild/'+topic+'" aria-current="page"'));
+  assert.equal(page.includes('id="meridian-globe"'),topic==='geografie');
+  assert.equal(page.includes('class="celan-map-reading"'),topic==='celan');
+ }
+ assert.ok(a.meridianGuide('celan').includes('href="#leseraum/meridian/herkunft"'));
+ assert.ok(a.meridianGuide('vergleich').includes('kein zweiter von Celan benannter Meridian'));
 });
