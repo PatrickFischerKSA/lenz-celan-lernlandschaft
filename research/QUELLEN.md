@@ -96,3 +96,7 @@ Neu recherchiert am 23. November 2026. Die Ergänzung unterscheidet belegte Aufe
 - Engadin 1959: Seng und Celans Meridian wie bereits dokumentiert. Die zusätzliche graue Verbindung Paris–Engadin und Frankfurt–Engadin bezeichnet die literarische Konstellation, keine tatsächliche gemeinsame Reise und keinen exakt lokalisierten Treffpunkt.
 
 Ortslagen neuer Stationen: GeoNames, `cities15000.zip`, https://download.geonames.org/export/dump/cities15000.zip , abgerufen am 23. November 2026. Attribution und Lizenz: GeoNames, CC BY 4.0, https://www.geonames.org/about.html . Die ausgewählten Kennungen und Koordinaten stehen in `research/reise-ortslagen.json` und `journeys.js`. Gemeinsame bestehende Knoten behalten ihre bisherigen Wikidata-/Zanetti-Koordinaten, um sie nicht gegeneinander zu versetzen. „Königsberg / Kaliningrad“ und „Dorpat / Tartu“ zeigen historische und heutige Namen; heutige Grenzen werden nicht als historische Grenzen ausgegeben.
+
+## Klares Celan-Porträt im Auftakt
+
+Paul Celan in Bukarest, 1945/1946. Fotograf/in unbekannt; nach Petre Solomon, *Paul Celan: dimensiunea românească*, Kriterion, Bukarest 1987. Bild und Herkunfts-/Rechteangaben: https://commons.wikimedia.org/wiki/File:Paul_Celan_1945.jpg ; dort als Public Domain (PD-RO-photo) ausgewiesen. Original 710 × 1025 Pixel, abgerufen 24. November 2026. Lokal: `assets/celan-bukarest.jpg`. Die Rasterung stammt von der historischen Druckvorlage.
