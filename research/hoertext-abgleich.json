@@ -1,0 +1,18 @@
+{
+  "lenz": {
+    "referenceWords": 8897,
+    "recognizedWordsWithinText": 8927,
+    "exactNormalizedWordMatches": 8255,
+    "coverage": 0.9278,
+    "minimumCueCoverage": 0.667,
+    "longUnmatchedRuns": []
+  },
+  "gespraech": {
+    "referenceWords": 1475,
+    "recognizedWordsWithinText": 1494,
+    "exactNormalizedWordMatches": 1417,
+    "coverage": 0.9607,
+    "minimumCueCoverage": 0.75,
+    "longUnmatchedRuns": []
+  }
+}

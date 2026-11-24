@@ -1,0 +1,2670 @@
+{
+  "schema": 1,
+  "precisionNote": "Zeitliche Orientierung an den bereitgestellten Aufnahmen; kleinere Fassungsabweichungen und Abweichungen im Sekundenbereich sind möglich.",
+  "recordings": {
+    "lenz": {
+      "duration": 4200.071837,
+      "contentStart": 8.4,
+      "contentEnd": 3753.0,
+      "prefix": "L",
+      "paragraphs": 32,
+      "cues": [
+        {
+          "start": 8.4,
+          "end": 26.56,
+          "paragraph": 0,
+          "from": 0,
+          "to": 223,
+          "match": 0.861
+        },
+        {
+          "start": 26.56,
+          "end": 38.58,
+          "paragraph": 0,
+          "from": 223,
+          "to": 427,
+          "match": 0.944
+        },
+        {
+          "start": 38.58,
+          "end": 55.29,
+          "paragraph": 0,
+          "from": 427,
+          "to": 633,
+          "match": 0.917
+        },
+        {
+          "start": 55.29,
+          "end": 69.32,
+          "paragraph": 0,
+          "from": 633,
+          "to": 843,
+          "match": 0.972
+        },
+        {
+          "start": 69.32,
+          "end": 84.57,
+          "paragraph": 0,
+          "from": 843,
+          "to": 1031,
+          "match": 0.972
+        },
+        {
+          "start": 84.57,
+          "end": 99.18,
+          "paragraph": 0,
+          "from": 1031,
+          "to": 1247,
+          "match": 0.861
+        },
+        {
+          "start": 99.18,
+          "end": 111.02,
+          "paragraph": 0,
+          "from": 1247,
+          "to": 1457,
+          "match": 0.917
+        },
+        {
+          "start": 111.02,
+          "end": 124.89,
+          "paragraph": 0,
+          "from": 1457,
+          "to": 1692,
+          "match": 0.833
+        },
+        {
+          "start": 124.89,
+          "end": 138.51,
+          "paragraph": 0,
+          "from": 1692,
+          "to": 1920,
+          "match": 0.889
+        },
+        {
+          "start": 138.51,
+          "end": 152.11,
+          "paragraph": 0,
+          "from": 1920,
+          "to": 2134,
+          "match": 0.917
+        },
+        {
+          "start": 152.11,
+          "end": 165.64,
+          "paragraph": 0,
+          "from": 2134,
+          "to": 2326,
+          "match": 0.944
+        },
+        {
+          "start": 165.64,
+          "end": 177.21,
+          "paragraph": 0,
+          "from": 2326,
+          "to": 2499,
+          "match": 1.0
+        },
+        {
+          "start": 177.21,
+          "end": 192.72,
+          "paragraph": 0,
+          "from": 2499,
+          "to": 2707,
+          "match": 1.0
+        },
+        {
+          "start": 192.72,
+          "end": 209.44,
+          "paragraph": 0,
+          "from": 2707,
+          "to": 2914,
+          "match": 0.972
+        },
+        {
+          "start": 209.44,
+          "end": 224.65,
+          "paragraph": 0,
+          "from": 2914,
+          "to": 3130,
+          "match": 0.889
+        },
+        {
+          "start": 224.65,
+          "end": 243.05,
+          "paragraph": 0,
+          "from": 3130,
+          "to": 3336,
+          "match": 0.972
+        },
+        {
+          "start": 243.05,
+          "end": 260.54,
+          "paragraph": 0,
+          "from": 3336,
+          "to": 3540,
+          "match": 0.889
+        },
+        {
+          "start": 260.54,
+          "end": 276.17,
+          "paragraph": 0,
+          "from": 3540,
+          "to": 3759,
+          "match": 0.972
+        },
+        {
+          "start": 276.17,
+          "end": 292.19,
+          "paragraph": 0,
+          "from": 3759,
+          "to": 3976,
+          "match": 0.917
+        },
+        {
+          "start": 292.19,
+          "end": 307.48,
+          "paragraph": 0,
+          "from": 3976,
+          "to": 4175,
+          "match": 0.889
+        },
+        {
+          "start": 307.48,
+          "end": 321.94,
+          "paragraph": 0,
+          "from": 4175,
+          "to": 4391,
+          "match": 0.861
+        },
+        {
+          "start": 321.94,
+          "end": 337.47,
+          "paragraph": 0,
+          "from": 4391,
+          "to": 4620,
+          "match": 0.833
+        },
+        {
+          "start": 337.47,
+          "end": 352.26,
+          "paragraph": 0,
+          "from": 4620,
+          "to": 4830,
+          "match": 0.917
+        },
+        {
+          "start": 352.26,
+          "end": 366.51,
+          "paragraph": 0,
+          "from": 4830,
+          "to": 5066,
+          "match": 0.972
+        },
+        {
+          "start": 366.51,
+          "end": 386.95,
+          "paragraph": 0,
+          "from": 5066,
+          "to": 5312,
+          "match": 0.972
+        },
+        {
+          "start": 386.95,
+          "end": 402.35,
+          "paragraph": 0,
+          "from": 5312,
+          "to": 5503,
+          "match": 1.0
+        },
+        {
+          "start": 402.35,
+          "end": 416.79,
+          "paragraph": 0,
+          "from": 5503,
+          "to": 5688,
+          "match": 0.972
+        },
+        {
+          "start": 416.79,
+          "end": 430.41,
+          "paragraph": 0,
+          "from": 5688,
+          "to": 5886,
+          "match": 0.972
+        },
+        {
+          "start": 430.41,
+          "end": 448.73,
+          "paragraph": 0,
+          "from": 5886,
+          "to": 6120,
+          "match": 0.972
+        },
+        {
+          "start": 448.73,
+          "end": 464.37,
+          "paragraph": 0,
+          "from": 6120,
+          "to": 6323,
+          "match": 1.0
+        },
+        {
+          "start": 464.37,
+          "end": 477.15,
+          "paragraph": 0,
+          "from": 6323,
+          "to": 6527,
+          "match": 0.972
+        },
+        {
+          "start": 477.15,
+          "end": 494.96,
+          "paragraph": 0,
+          "from": 6527,
+          "to": 6733,
+          "match": 0.972
+        },
+        {
+          "start": 494.96,
+          "end": 505.68,
+          "paragraph": 0,
+          "from": 6733,
+          "to": 6885,
+          "match": 0.963
+        },
+        {
+          "start": 505.68,
+          "end": 521.33,
+          "paragraph": 1,
+          "from": 0,
+          "to": 223,
+          "match": 0.778
+        },
+        {
+          "start": 521.33,
+          "end": 535.6,
+          "paragraph": 1,
+          "from": 223,
+          "to": 444,
+          "match": 1.0
+        },
+        {
+          "start": 535.6,
+          "end": 552.53,
+          "paragraph": 1,
+          "from": 444,
+          "to": 684,
+          "match": 0.917
+        },
+        {
+          "start": 552.53,
+          "end": 569.95,
+          "paragraph": 1,
+          "from": 684,
+          "to": 900,
+          "match": 0.806
+        },
+        {
+          "start": 569.95,
+          "end": 587.38,
+          "paragraph": 1,
+          "from": 900,
+          "to": 1134,
+          "match": 0.806
+        },
+        {
+          "start": 587.38,
+          "end": 606.44,
+          "paragraph": 1,
+          "from": 1134,
+          "to": 1380,
+          "match": 0.944
+        },
+        {
+          "start": 606.44,
+          "end": 622.61,
+          "paragraph": 1,
+          "from": 1380,
+          "to": 1609,
+          "match": 1.0
+        },
+        {
+          "start": 622.61,
+          "end": 637.48,
+          "paragraph": 1,
+          "from": 1609,
+          "to": 1850,
+          "match": 0.972
+        },
+        {
+          "start": 637.48,
+          "end": 652.87,
+          "paragraph": 1,
+          "from": 1850,
+          "to": 2071,
+          "match": 0.972
+        },
+        {
+          "start": 652.87,
+          "end": 669.32,
+          "paragraph": 1,
+          "from": 2071,
+          "to": 2286,
+          "match": 0.944
+        },
+        {
+          "start": 669.32,
+          "end": 684.68,
+          "paragraph": 1,
+          "from": 2286,
+          "to": 2482,
+          "match": 0.944
+        },
+        {
+          "start": 684.68,
+          "end": 700.29,
+          "paragraph": 1,
+          "from": 2482,
+          "to": 2698,
+          "match": 0.972
+        },
+        {
+          "start": 700.29,
+          "end": 715.47,
+          "paragraph": 1,
+          "from": 2698,
+          "to": 2908,
+          "match": 0.972
+        },
+        {
+          "start": 715.47,
+          "end": 730.38,
+          "paragraph": 1,
+          "from": 2908,
+          "to": 3133,
+          "match": 0.972
+        },
+        {
+          "start": 730.38,
+          "end": 746.0,
+          "paragraph": 1,
+          "from": 3133,
+          "to": 3358,
+          "match": 0.75
+        },
+        {
+          "start": 746.0,
+          "end": 758.67,
+          "paragraph": 1,
+          "from": 3358,
+          "to": 3564,
+          "match": 0.833
+        },
+        {
+          "start": 758.67,
+          "end": 770.83,
+          "paragraph": 1,
+          "from": 3564,
+          "to": 3758,
+          "match": 1.0
+        },
+        {
+          "start": 770.83,
+          "end": 788.46,
+          "paragraph": 1,
+          "from": 3758,
+          "to": 3974,
+          "match": 0.861
+        },
+        {
+          "start": 788.46,
+          "end": 802.25,
+          "paragraph": 1,
+          "from": 3974,
+          "to": 4189,
+          "match": 0.972
+        },
+        {
+          "start": 802.25,
+          "end": 816.87,
+          "paragraph": 1,
+          "from": 4189,
+          "to": 4391,
+          "match": 0.889
+        },
+        {
+          "start": 816.87,
+          "end": 832.41,
+          "paragraph": 1,
+          "from": 4391,
+          "to": 4608,
+          "match": 0.917
+        },
+        {
+          "start": 832.41,
+          "end": 847.12,
+          "paragraph": 1,
+          "from": 4608,
+          "to": 4851,
+          "match": 0.833
+        },
+        {
+          "start": 847.12,
+          "end": 861.79,
+          "paragraph": 1,
+          "from": 4851,
+          "to": 5058,
+          "match": 0.944
+        },
+        {
+          "start": 861.79,
+          "end": 879.76,
+          "paragraph": 1,
+          "from": 5058,
+          "to": 5256,
+          "match": 0.941
+        },
+        {
+          "start": 879.76,
+          "end": 895.88,
+          "paragraph": 2,
+          "from": 0,
+          "to": 239,
+          "match": 0.917
+        },
+        {
+          "start": 895.88,
+          "end": 912.83,
+          "paragraph": 2,
+          "from": 239,
+          "to": 468,
+          "match": 0.972
+        },
+        {
+          "start": 912.83,
+          "end": 928.29,
+          "paragraph": 2,
+          "from": 468,
+          "to": 704,
+          "match": 0.972
+        },
+        {
+          "start": 928.29,
+          "end": 933.85,
+          "paragraph": 2,
+          "from": 704,
+          "to": 778,
+          "match": 1.0
+        },
+        {
+          "start": 933.85,
+          "end": 952.76,
+          "paragraph": 3,
+          "from": 0,
+          "to": 243,
+          "match": 0.944
+        },
+        {
+          "start": 952.76,
+          "end": 970.95,
+          "paragraph": 3,
+          "from": 243,
+          "to": 489,
+          "match": 0.889
+        },
+        {
+          "start": 970.95,
+          "end": 985.38,
+          "paragraph": 3,
+          "from": 489,
+          "to": 691,
+          "match": 0.944
+        },
+        {
+          "start": 985.38,
+          "end": 1002.76,
+          "paragraph": 3,
+          "from": 691,
+          "to": 927,
+          "match": 0.972
+        },
+        {
+          "start": 1002.76,
+          "end": 1004.56,
+          "paragraph": 3,
+          "from": 927,
+          "to": 949,
+          "match": 1.0
+        },
+        {
+          "start": 1004.56,
+          "end": 1016.88,
+          "paragraph": 4,
+          "from": 0,
+          "to": 34,
+          "match": 0.833
+        },
+        {
+          "start": 1016.88,
+          "end": 1035.01,
+          "paragraph": 5,
+          "from": 0,
+          "to": 225,
+          "match": 0.889
+        },
+        {
+          "start": 1035.01,
+          "end": 1050.35,
+          "paragraph": 5,
+          "from": 225,
+          "to": 429,
+          "match": 0.917
+        },
+        {
+          "start": 1050.35,
+          "end": 1066.16,
+          "paragraph": 5,
+          "from": 429,
+          "to": 630,
+          "match": 0.944
+        },
+        {
+          "start": 1066.16,
+          "end": 1081.05,
+          "paragraph": 5,
+          "from": 630,
+          "to": 825,
+          "match": 0.972
+        },
+        {
+          "start": 1081.05,
+          "end": 1090.44,
+          "paragraph": 5,
+          "from": 825,
+          "to": 927,
+          "match": 1.0
+        },
+        {
+          "start": 1090.44,
+          "end": 1104.68,
+          "paragraph": 6,
+          "from": 0,
+          "to": 222,
+          "match": 0.944
+        },
+        {
+          "start": 1104.68,
+          "end": 1119.09,
+          "paragraph": 6,
+          "from": 222,
+          "to": 422,
+          "match": 1.0
+        },
+        {
+          "start": 1119.09,
+          "end": 1130.33,
+          "paragraph": 6,
+          "from": 422,
+          "to": 607,
+          "match": 0.944
+        },
+        {
+          "start": 1130.33,
+          "end": 1143.54,
+          "paragraph": 6,
+          "from": 607,
+          "to": 824,
+          "match": 0.944
+        },
+        {
+          "start": 1143.54,
+          "end": 1155.81,
+          "paragraph": 6,
+          "from": 824,
+          "to": 1030,
+          "match": 0.944
+        },
+        {
+          "start": 1155.81,
+          "end": 1171.8,
+          "paragraph": 6,
+          "from": 1030,
+          "to": 1264,
+          "match": 0.917
+        },
+        {
+          "start": 1171.8,
+          "end": 1186.71,
+          "paragraph": 6,
+          "from": 1264,
+          "to": 1496,
+          "match": 1.0
+        },
+        {
+          "start": 1186.71,
+          "end": 1199.16,
+          "paragraph": 6,
+          "from": 1496,
+          "to": 1680,
+          "match": 0.906
+        },
+        {
+          "start": 1199.16,
+          "end": 1211.96,
+          "paragraph": 7,
+          "from": 0,
+          "to": 215,
+          "match": 0.861
+        },
+        {
+          "start": 1211.96,
+          "end": 1227.19,
+          "paragraph": 7,
+          "from": 215,
+          "to": 434,
+          "match": 1.0
+        },
+        {
+          "start": 1227.19,
+          "end": 1244.02,
+          "paragraph": 7,
+          "from": 434,
+          "to": 679,
+          "match": 0.889
+        },
+        {
+          "start": 1244.02,
+          "end": 1254.46,
+          "paragraph": 7,
+          "from": 679,
+          "to": 817,
+          "match": 0.923
+        },
+        {
+          "start": 1254.46,
+          "end": 1270.39,
+          "paragraph": 8,
+          "from": 0,
+          "to": 228,
+          "match": 0.944
+        },
+        {
+          "start": 1270.39,
+          "end": 1285.75,
+          "paragraph": 8,
+          "from": 228,
+          "to": 452,
+          "match": 0.972
+        },
+        {
+          "start": 1285.75,
+          "end": 1298.39,
+          "paragraph": 8,
+          "from": 452,
+          "to": 646,
+          "match": 0.944
+        },
+        {
+          "start": 1298.39,
+          "end": 1315.04,
+          "paragraph": 8,
+          "from": 646,
+          "to": 875,
+          "match": 1.0
+        },
+        {
+          "start": 1315.04,
+          "end": 1326.65,
+          "paragraph": 8,
+          "from": 875,
+          "to": 1098,
+          "match": 1.0
+        },
+        {
+          "start": 1326.65,
+          "end": 1340.36,
+          "paragraph": 8,
+          "from": 1098,
+          "to": 1321,
+          "match": 0.917
+        },
+        {
+          "start": 1340.36,
+          "end": 1354.99,
+          "paragraph": 8,
+          "from": 1321,
+          "to": 1529,
+          "match": 0.972
+        },
+        {
+          "start": 1354.99,
+          "end": 1369.44,
+          "paragraph": 8,
+          "from": 1529,
+          "to": 1760,
+          "match": 0.861
+        },
+        {
+          "start": 1369.44,
+          "end": 1382.23,
+          "paragraph": 8,
+          "from": 1760,
+          "to": 1990,
+          "match": 0.972
+        },
+        {
+          "start": 1382.23,
+          "end": 1396.4,
+          "paragraph": 8,
+          "from": 1990,
+          "to": 2236,
+          "match": 0.861
+        },
+        {
+          "start": 1396.4,
+          "end": 1409.37,
+          "paragraph": 8,
+          "from": 2236,
+          "to": 2434,
+          "match": 0.972
+        },
+        {
+          "start": 1409.37,
+          "end": 1422.82,
+          "paragraph": 8,
+          "from": 2434,
+          "to": 2643,
+          "match": 0.861
+        },
+        {
+          "start": 1422.82,
+          "end": 1437.92,
+          "paragraph": 8,
+          "from": 2643,
+          "to": 2867,
+          "match": 0.972
+        },
+        {
+          "start": 1437.92,
+          "end": 1455.03,
+          "paragraph": 8,
+          "from": 2867,
+          "to": 3095,
+          "match": 0.917
+        },
+        {
+          "start": 1455.03,
+          "end": 1468.63,
+          "paragraph": 8,
+          "from": 3095,
+          "to": 3323,
+          "match": 0.944
+        },
+        {
+          "start": 1468.63,
+          "end": 1483.79,
+          "paragraph": 8,
+          "from": 3323,
+          "to": 3558,
+          "match": 1.0
+        },
+        {
+          "start": 1483.79,
+          "end": 1497.14,
+          "paragraph": 8,
+          "from": 3558,
+          "to": 3784,
+          "match": 0.861
+        },
+        {
+          "start": 1497.14,
+          "end": 1510.42,
+          "paragraph": 8,
+          "from": 3784,
+          "to": 3997,
+          "match": 0.917
+        },
+        {
+          "start": 1510.42,
+          "end": 1522.18,
+          "paragraph": 8,
+          "from": 3997,
+          "to": 4186,
+          "match": 0.917
+        },
+        {
+          "start": 1522.18,
+          "end": 1535.59,
+          "paragraph": 8,
+          "from": 4186,
+          "to": 4420,
+          "match": 0.972
+        },
+        {
+          "start": 1535.59,
+          "end": 1548.01,
+          "paragraph": 8,
+          "from": 4420,
+          "to": 4617,
+          "match": 0.972
+        },
+        {
+          "start": 1548.01,
+          "end": 1564.69,
+          "paragraph": 8,
+          "from": 4617,
+          "to": 4853,
+          "match": 0.917
+        },
+        {
+          "start": 1564.69,
+          "end": 1578.53,
+          "paragraph": 8,
+          "from": 4853,
+          "to": 5083,
+          "match": 0.944
+        },
+        {
+          "start": 1578.53,
+          "end": 1596.38,
+          "paragraph": 8,
+          "from": 5083,
+          "to": 5299,
+          "match": 0.972
+        },
+        {
+          "start": 1596.38,
+          "end": 1613.56,
+          "paragraph": 8,
+          "from": 5299,
+          "to": 5515,
+          "match": 0.972
+        },
+        {
+          "start": 1613.56,
+          "end": 1628.86,
+          "paragraph": 8,
+          "from": 5515,
+          "to": 5717,
+          "match": 0.972
+        },
+        {
+          "start": 1628.86,
+          "end": 1644.11,
+          "paragraph": 8,
+          "from": 5717,
+          "to": 5922,
+          "match": 0.972
+        },
+        {
+          "start": 1644.11,
+          "end": 1660.85,
+          "paragraph": 8,
+          "from": 5922,
+          "to": 6147,
+          "match": 0.861
+        },
+        {
+          "start": 1660.85,
+          "end": 1675.47,
+          "paragraph": 8,
+          "from": 6147,
+          "to": 6348,
+          "match": 0.944
+        },
+        {
+          "start": 1675.47,
+          "end": 1687.8,
+          "paragraph": 8,
+          "from": 6348,
+          "to": 6549,
+          "match": 0.833
+        },
+        {
+          "start": 1687.8,
+          "end": 1702.03,
+          "paragraph": 8,
+          "from": 6549,
+          "to": 6748,
+          "match": 0.944
+        },
+        {
+          "start": 1702.03,
+          "end": 1717.78,
+          "paragraph": 8,
+          "from": 6748,
+          "to": 6968,
+          "match": 1.0
+        },
+        {
+          "start": 1717.78,
+          "end": 1731.95,
+          "paragraph": 8,
+          "from": 6968,
+          "to": 7106,
+          "match": 0.92
+        },
+        {
+          "start": 1731.95,
+          "end": 1745.54,
+          "paragraph": 9,
+          "from": 0,
+          "to": 212,
+          "match": 0.944
+        },
+        {
+          "start": 1745.54,
+          "end": 1760.3,
+          "paragraph": 9,
+          "from": 212,
+          "to": 432,
+          "match": 0.917
+        },
+        {
+          "start": 1760.3,
+          "end": 1774.23,
+          "paragraph": 9,
+          "from": 432,
+          "to": 639,
+          "match": 0.917
+        },
+        {
+          "start": 1774.23,
+          "end": 1789.31,
+          "paragraph": 9,
+          "from": 639,
+          "to": 853,
+          "match": 1.0
+        },
+        {
+          "start": 1789.31,
+          "end": 1795.06,
+          "paragraph": 9,
+          "from": 853,
+          "to": 913,
+          "match": 0.9
+        },
+        {
+          "start": 1795.06,
+          "end": 1808.28,
+          "paragraph": 10,
+          "from": 0,
+          "to": 214,
+          "match": 0.889
+        },
+        {
+          "start": 1808.28,
+          "end": 1823.55,
+          "paragraph": 10,
+          "from": 214,
+          "to": 440,
+          "match": 0.972
+        },
+        {
+          "start": 1823.55,
+          "end": 1838.21,
+          "paragraph": 10,
+          "from": 440,
+          "to": 664,
+          "match": 0.917
+        },
+        {
+          "start": 1838.21,
+          "end": 1854.08,
+          "paragraph": 10,
+          "from": 664,
+          "to": 870,
+          "match": 0.944
+        },
+        {
+          "start": 1854.08,
+          "end": 1871.14,
+          "paragraph": 10,
+          "from": 870,
+          "to": 1082,
+          "match": 0.972
+        },
+        {
+          "start": 1871.14,
+          "end": 1885.74,
+          "paragraph": 10,
+          "from": 1082,
+          "to": 1304,
+          "match": 0.889
+        },
+        {
+          "start": 1885.74,
+          "end": 1903.19,
+          "paragraph": 10,
+          "from": 1304,
+          "to": 1519,
+          "match": 0.833
+        },
+        {
+          "start": 1903.19,
+          "end": 1919.99,
+          "paragraph": 10,
+          "from": 1519,
+          "to": 1737,
+          "match": 1.0
+        },
+        {
+          "start": 1919.99,
+          "end": 1933.5,
+          "paragraph": 10,
+          "from": 1737,
+          "to": 1955,
+          "match": 0.972
+        },
+        {
+          "start": 1933.5,
+          "end": 1950.3,
+          "paragraph": 10,
+          "from": 1955,
+          "to": 2171,
+          "match": 0.972
+        },
+        {
+          "start": 1950.3,
+          "end": 1955.93,
+          "paragraph": 10,
+          "from": 2171,
+          "to": 2226,
+          "match": 0.9
+        },
+        {
+          "start": 1955.93,
+          "end": 1967.65,
+          "paragraph": 11,
+          "from": 0,
+          "to": 207,
+          "match": 1.0
+        },
+        {
+          "start": 1967.65,
+          "end": 1984.05,
+          "paragraph": 11,
+          "from": 207,
+          "to": 434,
+          "match": 0.972
+        },
+        {
+          "start": 1984.05,
+          "end": 1998.14,
+          "paragraph": 11,
+          "from": 434,
+          "to": 648,
+          "match": 0.917
+        },
+        {
+          "start": 1998.14,
+          "end": 2005.18,
+          "paragraph": 11,
+          "from": 648,
+          "to": 739,
+          "match": 0.933
+        },
+        {
+          "start": 2005.18,
+          "end": 2019.14,
+          "paragraph": 12,
+          "from": 0,
+          "to": 233,
+          "match": 0.917
+        },
+        {
+          "start": 2019.14,
+          "end": 2034.37,
+          "paragraph": 12,
+          "from": 233,
+          "to": 468,
+          "match": 0.917
+        },
+        {
+          "start": 2034.37,
+          "end": 2048.26,
+          "paragraph": 12,
+          "from": 468,
+          "to": 674,
+          "match": 0.778
+        },
+        {
+          "start": 2048.26,
+          "end": 2064.62,
+          "paragraph": 12,
+          "from": 674,
+          "to": 882,
+          "match": 0.917
+        },
+        {
+          "start": 2064.62,
+          "end": 2078.23,
+          "paragraph": 12,
+          "from": 882,
+          "to": 1087,
+          "match": 0.917
+        },
+        {
+          "start": 2078.23,
+          "end": 2091.92,
+          "paragraph": 12,
+          "from": 1087,
+          "to": 1302,
+          "match": 0.861
+        },
+        {
+          "start": 2091.92,
+          "end": 2106.14,
+          "paragraph": 12,
+          "from": 1302,
+          "to": 1512,
+          "match": 0.972
+        },
+        {
+          "start": 2106.14,
+          "end": 2107.58,
+          "paragraph": 12,
+          "from": 1512,
+          "to": 1530,
+          "match": 1.0
+        },
+        {
+          "start": 2107.58,
+          "end": 2121.38,
+          "paragraph": 13,
+          "from": 0,
+          "to": 212,
+          "match": 0.944
+        },
+        {
+          "start": 2121.38,
+          "end": 2139.46,
+          "paragraph": 13,
+          "from": 212,
+          "to": 441,
+          "match": 1.0
+        },
+        {
+          "start": 2139.46,
+          "end": 2155.78,
+          "paragraph": 13,
+          "from": 441,
+          "to": 671,
+          "match": 1.0
+        },
+        {
+          "start": 2155.78,
+          "end": 2170.25,
+          "paragraph": 13,
+          "from": 671,
+          "to": 890,
+          "match": 0.889
+        },
+        {
+          "start": 2170.25,
+          "end": 2184.23,
+          "paragraph": 13,
+          "from": 890,
+          "to": 1103,
+          "match": 0.917
+        },
+        {
+          "start": 2184.23,
+          "end": 2196.89,
+          "paragraph": 13,
+          "from": 1103,
+          "to": 1288,
+          "match": 0.889
+        },
+        {
+          "start": 2196.89,
+          "end": 2198.22,
+          "paragraph": 13,
+          "from": 1288,
+          "to": 1303,
+          "match": 1.0
+        },
+        {
+          "start": 2198.22,
+          "end": 2203.4,
+          "paragraph": 14,
+          "from": 0,
+          "to": 38,
+          "match": 0.714
+        },
+        {
+          "start": 2203.4,
+          "end": 2219.63,
+          "paragraph": 15,
+          "from": 0,
+          "to": 203,
+          "match": 1.0
+        },
+        {
+          "start": 2219.63,
+          "end": 2226.54,
+          "paragraph": 15,
+          "from": 203,
+          "to": 337,
+          "match": 0.905
+        },
+        {
+          "start": 2226.54,
+          "end": 2239.86,
+          "paragraph": 16,
+          "from": 0,
+          "to": 198,
+          "match": 0.889
+        },
+        {
+          "start": 2239.86,
+          "end": 2247.73,
+          "paragraph": 16,
+          "from": 198,
+          "to": 296,
+          "match": 1.0
+        },
+        {
+          "start": 2247.73,
+          "end": 2260.44,
+          "paragraph": 17,
+          "from": 0,
+          "to": 192,
+          "match": 0.917
+        },
+        {
+          "start": 2260.44,
+          "end": 2270.84,
+          "paragraph": 17,
+          "from": 192,
+          "to": 376,
+          "match": 0.917
+        },
+        {
+          "start": 2270.84,
+          "end": 2281.89,
+          "paragraph": 17,
+          "from": 376,
+          "to": 560,
+          "match": 0.75
+        },
+        {
+          "start": 2281.89,
+          "end": 2296.79,
+          "paragraph": 17,
+          "from": 560,
+          "to": 742,
+          "match": 0.917
+        },
+        {
+          "start": 2296.79,
+          "end": 2309.72,
+          "paragraph": 17,
+          "from": 742,
+          "to": 927,
+          "match": 0.833
+        },
+        {
+          "start": 2309.72,
+          "end": 2324.26,
+          "paragraph": 17,
+          "from": 927,
+          "to": 1123,
+          "match": 0.944
+        },
+        {
+          "start": 2324.26,
+          "end": 2333.78,
+          "paragraph": 17,
+          "from": 1123,
+          "to": 1249,
+          "match": 0.955
+        },
+        {
+          "start": 2333.78,
+          "end": 2347.95,
+          "paragraph": 18,
+          "from": 0,
+          "to": 213,
+          "match": 0.917
+        },
+        {
+          "start": 2347.95,
+          "end": 2365.71,
+          "paragraph": 18,
+          "from": 213,
+          "to": 411,
+          "match": 0.917
+        },
+        {
+          "start": 2365.71,
+          "end": 2382.96,
+          "paragraph": 18,
+          "from": 411,
+          "to": 606,
+          "match": 0.917
+        },
+        {
+          "start": 2382.96,
+          "end": 2394.86,
+          "paragraph": 18,
+          "from": 606,
+          "to": 801,
+          "match": 0.972
+        },
+        {
+          "start": 2394.86,
+          "end": 2407.26,
+          "paragraph": 18,
+          "from": 801,
+          "to": 995,
+          "match": 0.972
+        },
+        {
+          "start": 2407.26,
+          "end": 2423.09,
+          "paragraph": 18,
+          "from": 995,
+          "to": 1200,
+          "match": 1.0
+        },
+        {
+          "start": 2423.09,
+          "end": 2424.9,
+          "paragraph": 18,
+          "from": 1200,
+          "to": 1216,
+          "match": 1.0
+        },
+        {
+          "start": 2424.9,
+          "end": 2439.14,
+          "paragraph": 19,
+          "from": 0,
+          "to": 206,
+          "match": 0.972
+        },
+        {
+          "start": 2439.14,
+          "end": 2454.34,
+          "paragraph": 19,
+          "from": 206,
+          "to": 420,
+          "match": 0.944
+        },
+        {
+          "start": 2454.34,
+          "end": 2466.17,
+          "paragraph": 19,
+          "from": 420,
+          "to": 609,
+          "match": 0.778
+        },
+        {
+          "start": 2466.17,
+          "end": 2483.35,
+          "paragraph": 19,
+          "from": 609,
+          "to": 809,
+          "match": 0.972
+        },
+        {
+          "start": 2483.35,
+          "end": 2501.35,
+          "paragraph": 19,
+          "from": 809,
+          "to": 1024,
+          "match": 0.944
+        },
+        {
+          "start": 2501.35,
+          "end": 2514.95,
+          "paragraph": 19,
+          "from": 1024,
+          "to": 1239,
+          "match": 0.917
+        },
+        {
+          "start": 2514.95,
+          "end": 2530.15,
+          "paragraph": 19,
+          "from": 1239,
+          "to": 1449,
+          "match": 0.944
+        },
+        {
+          "start": 2530.15,
+          "end": 2546.26,
+          "paragraph": 19,
+          "from": 1449,
+          "to": 1649,
+          "match": 0.944
+        },
+        {
+          "start": 2546.26,
+          "end": 2562.31,
+          "paragraph": 19,
+          "from": 1649,
+          "to": 1846,
+          "match": 0.944
+        },
+        {
+          "start": 2562.31,
+          "end": 2567.62,
+          "paragraph": 19,
+          "from": 1846,
+          "to": 1901,
+          "match": 1.0
+        },
+        {
+          "start": 2567.62,
+          "end": 2583.73,
+          "paragraph": 20,
+          "from": 0,
+          "to": 230,
+          "match": 0.972
+        },
+        {
+          "start": 2583.73,
+          "end": 2588.18,
+          "paragraph": 20,
+          "from": 230,
+          "to": 283,
+          "match": 0.7
+        },
+        {
+          "start": 2588.18,
+          "end": 2603.9,
+          "paragraph": 21,
+          "from": 0,
+          "to": 218,
+          "match": 0.972
+        },
+        {
+          "start": 2603.9,
+          "end": 2617.39,
+          "paragraph": 21,
+          "from": 218,
+          "to": 437,
+          "match": 0.972
+        },
+        {
+          "start": 2617.39,
+          "end": 2635.67,
+          "paragraph": 21,
+          "from": 437,
+          "to": 644,
+          "match": 0.833
+        },
+        {
+          "start": 2635.67,
+          "end": 2650.85,
+          "paragraph": 21,
+          "from": 644,
+          "to": 838,
+          "match": 0.917
+        },
+        {
+          "start": 2650.85,
+          "end": 2658.74,
+          "paragraph": 21,
+          "from": 838,
+          "to": 947,
+          "match": 0.9
+        },
+        {
+          "start": 2658.74,
+          "end": 2674.98,
+          "paragraph": 22,
+          "from": 0,
+          "to": 214,
+          "match": 0.944
+        },
+        {
+          "start": 2674.98,
+          "end": 2691.65,
+          "paragraph": 22,
+          "from": 214,
+          "to": 415,
+          "match": 0.833
+        },
+        {
+          "start": 2691.65,
+          "end": 2712.42,
+          "paragraph": 22,
+          "from": 415,
+          "to": 652,
+          "match": 0.861
+        },
+        {
+          "start": 2712.42,
+          "end": 2724.22,
+          "paragraph": 22,
+          "from": 652,
+          "to": 858,
+          "match": 0.972
+        },
+        {
+          "start": 2724.22,
+          "end": 2735.51,
+          "paragraph": 22,
+          "from": 858,
+          "to": 1024,
+          "match": 0.929
+        },
+        {
+          "start": 2735.51,
+          "end": 2748.55,
+          "paragraph": 23,
+          "from": 0,
+          "to": 205,
+          "match": 0.889
+        },
+        {
+          "start": 2748.55,
+          "end": 2762.05,
+          "paragraph": 23,
+          "from": 205,
+          "to": 405,
+          "match": 0.972
+        },
+        {
+          "start": 2762.05,
+          "end": 2775.87,
+          "paragraph": 23,
+          "from": 405,
+          "to": 587,
+          "match": 0.931
+        },
+        {
+          "start": 2775.87,
+          "end": 2793.32,
+          "paragraph": 24,
+          "from": 0,
+          "to": 231,
+          "match": 0.889
+        },
+        {
+          "start": 2793.32,
+          "end": 2809.73,
+          "paragraph": 24,
+          "from": 231,
+          "to": 477,
+          "match": 0.861
+        },
+        {
+          "start": 2809.73,
+          "end": 2824.96,
+          "paragraph": 24,
+          "from": 477,
+          "to": 708,
+          "match": 0.889
+        },
+        {
+          "start": 2824.96,
+          "end": 2828.57,
+          "paragraph": 24,
+          "from": 708,
+          "to": 779,
+          "match": 0.889
+        },
+        {
+          "start": 2828.57,
+          "end": 2847.46,
+          "paragraph": 25,
+          "from": 0,
+          "to": 215,
+          "match": 0.972
+        },
+        {
+          "start": 2847.46,
+          "end": 2861.87,
+          "paragraph": 25,
+          "from": 215,
+          "to": 418,
+          "match": 0.889
+        },
+        {
+          "start": 2861.87,
+          "end": 2877.56,
+          "paragraph": 25,
+          "from": 418,
+          "to": 638,
+          "match": 0.889
+        },
+        {
+          "start": 2877.56,
+          "end": 2891.78,
+          "paragraph": 25,
+          "from": 638,
+          "to": 818,
+          "match": 0.929
+        },
+        {
+          "start": 2891.78,
+          "end": 2904.0,
+          "paragraph": 26,
+          "from": 0,
+          "to": 134,
+          "match": 0.727
+        },
+        {
+          "start": 2904.0,
+          "end": 2918.84,
+          "paragraph": 27,
+          "from": 0,
+          "to": 208,
+          "match": 0.944
+        },
+        {
+          "start": 2918.84,
+          "end": 2933.42,
+          "paragraph": 27,
+          "from": 208,
+          "to": 412,
+          "match": 0.917
+        },
+        {
+          "start": 2933.42,
+          "end": 2946.67,
+          "paragraph": 27,
+          "from": 412,
+          "to": 634,
+          "match": 0.917
+        },
+        {
+          "start": 2946.67,
+          "end": 2961.83,
+          "paragraph": 27,
+          "from": 634,
+          "to": 853,
+          "match": 0.889
+        },
+        {
+          "start": 2961.83,
+          "end": 2979.22,
+          "paragraph": 27,
+          "from": 853,
+          "to": 1066,
+          "match": 0.917
+        },
+        {
+          "start": 2979.22,
+          "end": 2992.7,
+          "paragraph": 27,
+          "from": 1066,
+          "to": 1271,
+          "match": 0.972
+        },
+        {
+          "start": 2992.7,
+          "end": 3005.79,
+          "paragraph": 27,
+          "from": 1271,
+          "to": 1485,
+          "match": 0.944
+        },
+        {
+          "start": 3005.79,
+          "end": 3020.89,
+          "paragraph": 27,
+          "from": 1485,
+          "to": 1713,
+          "match": 0.972
+        },
+        {
+          "start": 3020.89,
+          "end": 3035.25,
+          "paragraph": 27,
+          "from": 1713,
+          "to": 1946,
+          "match": 0.972
+        },
+        {
+          "start": 3035.25,
+          "end": 3049.86,
+          "paragraph": 27,
+          "from": 1946,
+          "to": 2174,
+          "match": 0.889
+        },
+        {
+          "start": 3049.86,
+          "end": 3061.43,
+          "paragraph": 27,
+          "from": 2174,
+          "to": 2364,
+          "match": 0.833
+        },
+        {
+          "start": 3061.43,
+          "end": 3074.05,
+          "paragraph": 27,
+          "from": 2364,
+          "to": 2569,
+          "match": 0.861
+        },
+        {
+          "start": 3074.05,
+          "end": 3088.23,
+          "paragraph": 27,
+          "from": 2569,
+          "to": 2789,
+          "match": 0.889
+        },
+        {
+          "start": 3088.23,
+          "end": 3104.04,
+          "paragraph": 27,
+          "from": 2789,
+          "to": 3033,
+          "match": 1.0
+        },
+        {
+          "start": 3104.04,
+          "end": 3116.04,
+          "paragraph": 27,
+          "from": 3033,
+          "to": 3226,
+          "match": 0.944
+        },
+        {
+          "start": 3116.04,
+          "end": 3132.27,
+          "paragraph": 27,
+          "from": 3226,
+          "to": 3492,
+          "match": 0.972
+        },
+        {
+          "start": 3132.27,
+          "end": 3151.31,
+          "paragraph": 27,
+          "from": 3492,
+          "to": 3728,
+          "match": 0.917
+        },
+        {
+          "start": 3151.31,
+          "end": 3155.44,
+          "paragraph": 27,
+          "from": 3728,
+          "to": 3795,
+          "match": 0.667
+        },
+        {
+          "start": 3155.44,
+          "end": 3170.06,
+          "paragraph": 28,
+          "from": 0,
+          "to": 211,
+          "match": 0.972
+        },
+        {
+          "start": 3170.06,
+          "end": 3189.0,
+          "paragraph": 28,
+          "from": 211,
+          "to": 435,
+          "match": 0.972
+        },
+        {
+          "start": 3189.0,
+          "end": 3200.89,
+          "paragraph": 28,
+          "from": 435,
+          "to": 630,
+          "match": 1.0
+        },
+        {
+          "start": 3200.89,
+          "end": 3216.16,
+          "paragraph": 28,
+          "from": 630,
+          "to": 869,
+          "match": 1.0
+        },
+        {
+          "start": 3216.16,
+          "end": 3230.77,
+          "paragraph": 28,
+          "from": 869,
+          "to": 1092,
+          "match": 0.944
+        },
+        {
+          "start": 3230.77,
+          "end": 3244.99,
+          "paragraph": 28,
+          "from": 1092,
+          "to": 1302,
+          "match": 0.944
+        },
+        {
+          "start": 3244.99,
+          "end": 3256.99,
+          "paragraph": 28,
+          "from": 1302,
+          "to": 1490,
+          "match": 1.0
+        },
+        {
+          "start": 3256.99,
+          "end": 3276.28,
+          "paragraph": 28,
+          "from": 1490,
+          "to": 1748,
+          "match": 0.917
+        },
+        {
+          "start": 3276.28,
+          "end": 3296.15,
+          "paragraph": 28,
+          "from": 1748,
+          "to": 1990,
+          "match": 0.944
+        },
+        {
+          "start": 3296.15,
+          "end": 3313.36,
+          "paragraph": 28,
+          "from": 1990,
+          "to": 2221,
+          "match": 0.889
+        },
+        {
+          "start": 3313.36,
+          "end": 3328.52,
+          "paragraph": 28,
+          "from": 2221,
+          "to": 2447,
+          "match": 0.944
+        },
+        {
+          "start": 3328.52,
+          "end": 3341.9,
+          "paragraph": 28,
+          "from": 2447,
+          "to": 2683,
+          "match": 0.917
+        },
+        {
+          "start": 3341.9,
+          "end": 3354.63,
+          "paragraph": 28,
+          "from": 2683,
+          "to": 2897,
+          "match": 0.944
+        },
+        {
+          "start": 3354.63,
+          "end": 3367.75,
+          "paragraph": 28,
+          "from": 2897,
+          "to": 3102,
+          "match": 0.833
+        },
+        {
+          "start": 3367.75,
+          "end": 3368.99,
+          "paragraph": 28,
+          "from": 3102,
+          "to": 3124,
+          "match": 1.0
+        },
+        {
+          "start": 3368.99,
+          "end": 3384.46,
+          "paragraph": 29,
+          "from": 0,
+          "to": 209,
+          "match": 0.944
+        },
+        {
+          "start": 3384.46,
+          "end": 3403.34,
+          "paragraph": 29,
+          "from": 209,
+          "to": 449,
+          "match": 0.917
+        },
+        {
+          "start": 3403.34,
+          "end": 3420.42,
+          "paragraph": 29,
+          "from": 449,
+          "to": 669,
+          "match": 0.889
+        },
+        {
+          "start": 3420.42,
+          "end": 3435.12,
+          "paragraph": 29,
+          "from": 669,
+          "to": 870,
+          "match": 0.889
+        },
+        {
+          "start": 3435.12,
+          "end": 3450.3,
+          "paragraph": 29,
+          "from": 870,
+          "to": 1102,
+          "match": 0.972
+        },
+        {
+          "start": 3450.3,
+          "end": 3465.78,
+          "paragraph": 29,
+          "from": 1102,
+          "to": 1317,
+          "match": 0.833
+        },
+        {
+          "start": 3465.78,
+          "end": 3480.32,
+          "paragraph": 29,
+          "from": 1317,
+          "to": 1526,
+          "match": 0.917
+        },
+        {
+          "start": 3480.32,
+          "end": 3496.01,
+          "paragraph": 29,
+          "from": 1526,
+          "to": 1747,
+          "match": 0.889
+        },
+        {
+          "start": 3496.01,
+          "end": 3510.39,
+          "paragraph": 29,
+          "from": 1747,
+          "to": 1951,
+          "match": 0.889
+        },
+        {
+          "start": 3510.39,
+          "end": 3524.6,
+          "paragraph": 29,
+          "from": 1951,
+          "to": 2195,
+          "match": 0.861
+        },
+        {
+          "start": 3524.6,
+          "end": 3537.15,
+          "paragraph": 29,
+          "from": 2195,
+          "to": 2396,
+          "match": 1.0
+        },
+        {
+          "start": 3537.15,
+          "end": 3540.84,
+          "paragraph": 29,
+          "from": 2396,
+          "to": 2451,
+          "match": 0.857
+        },
+        {
+          "start": 3540.84,
+          "end": 3556.6,
+          "paragraph": 30,
+          "from": 0,
+          "to": 196,
+          "match": 0.972
+        },
+        {
+          "start": 3556.6,
+          "end": 3571.36,
+          "paragraph": 30,
+          "from": 196,
+          "to": 395,
+          "match": 0.944
+        },
+        {
+          "start": 3571.36,
+          "end": 3586.33,
+          "paragraph": 30,
+          "from": 395,
+          "to": 616,
+          "match": 0.917
+        },
+        {
+          "start": 3586.33,
+          "end": 3598.77,
+          "paragraph": 30,
+          "from": 616,
+          "to": 820,
+          "match": 0.889
+        },
+        {
+          "start": 3598.77,
+          "end": 3612.76,
+          "paragraph": 30,
+          "from": 820,
+          "to": 1034,
+          "match": 1.0
+        },
+        {
+          "start": 3612.76,
+          "end": 3628.09,
+          "paragraph": 30,
+          "from": 1034,
+          "to": 1252,
+          "match": 0.944
+        },
+        {
+          "start": 3628.09,
+          "end": 3640.53,
+          "paragraph": 30,
+          "from": 1252,
+          "to": 1473,
+          "match": 0.972
+        },
+        {
+          "start": 3640.53,
+          "end": 3645.5,
+          "paragraph": 30,
+          "from": 1473,
+          "to": 1535,
+          "match": 0.7
+        },
+        {
+          "start": 3645.5,
+          "end": 3659.26,
+          "paragraph": 31,
+          "from": 0,
+          "to": 199,
+          "match": 0.889
+        },
+        {
+          "start": 3659.26,
+          "end": 3674.72,
+          "paragraph": 31,
+          "from": 199,
+          "to": 432,
+          "match": 0.861
+        },
+        {
+          "start": 3674.72,
+          "end": 3687.99,
+          "paragraph": 31,
+          "from": 432,
+          "to": 649,
+          "match": 0.833
+        },
+        {
+          "start": 3687.99,
+          "end": 3707.25,
+          "paragraph": 31,
+          "from": 649,
+          "to": 885,
+          "match": 0.861
+        },
+        {
+          "start": 3707.25,
+          "end": 3722.69,
+          "paragraph": 31,
+          "from": 885,
+          "to": 1090,
+          "match": 0.944
+        },
+        {
+          "start": 3722.69,
+          "end": 3739.07,
+          "paragraph": 31,
+          "from": 1090,
+          "to": 1303,
+          "match": 0.917
+        },
+        {
+          "start": 3739.07,
+          "end": 3753.0,
+          "paragraph": 31,
+          "from": 1303,
+          "to": 1412,
+          "match": 1.0
+        }
+      ],
+      "landmarks": [
+        {
+          "label": "Aufbruch",
+          "needle": "Den 20.",
+          "time": 8.4,
+          "cue": 0,
+          "paragraph": 0
+        },
+        {
+          "label": "Einsamkeit und Angst",
+          "needle": "entsetzlich einsam",
+          "time": 226.75,
+          "cue": 15,
+          "paragraph": 0
+        },
+        {
+          "label": "Bei Oberlin",
+          "needle": "Oberlin",
+          "time": 314.45,
+          "cue": 20,
+          "paragraph": 0
+        },
+        {
+          "label": "Kunstgespräch",
+          "needle": "Über Tisch",
+          "time": 1299.26,
+          "cue": 87,
+          "paragraph": 8
+        },
+        {
+          "label": "Leben des Geringsten",
+          "needle": "Leben des Geringsten",
+          "time": 1379.0,
+          "cue": 92,
+          "paragraph": 8
+        },
+        {
+          "label": "Medusenhaupt",
+          "needle": "Medusenhaupt",
+          "time": 1428.04,
+          "cue": 96,
+          "paragraph": 8
+        },
+        {
+          "label": "Das tote Kind",
+          "needle": "Das Kind kam ihm",
+          "time": 2430.13,
+          "cue": 171,
+          "paragraph": 19
+        },
+        {
+          "label": "Schluss",
+          "needle": "So lebte er hin",
+          "time": 3747.13,
+          "cue": 264,
+          "paragraph": 31
+        }
+      ],
+      "editionNote": "Die Lesung nennt „20. Jänner“, der Gutenberg-Text nur „Den 20.“; weitere kleinere Fassungsabweichungen sind möglich. Nach dem Erzählungsende folgen Nachspann und weiteres Material; die Textzuordnung endet bei 1:02:33."
+    },
+    "gespraech": {
+      "duration": 693.580045,
+      "contentStart": 5.88,
+      "contentEnd": 689.0,
+      "prefix": "G",
+      "paragraphs": 15,
+      "cues": [
+        {
+          "start": 5.88,
+          "end": 22.86,
+          "paragraph": 0,
+          "from": 0,
+          "to": 202,
+          "match": 0.917
+        },
+        {
+          "start": 22.86,
+          "end": 39.8,
+          "paragraph": 0,
+          "from": 202,
+          "to": 391,
+          "match": 0.972
+        },
+        {
+          "start": 39.8,
+          "end": 54.91,
+          "paragraph": 1,
+          "from": 0,
+          "to": 200,
+          "match": 0.944
+        },
+        {
+          "start": 54.91,
+          "end": 72.09,
+          "paragraph": 1,
+          "from": 200,
+          "to": 424,
+          "match": 0.972
+        },
+        {
+          "start": 72.09,
+          "end": 83.64,
+          "paragraph": 1,
+          "from": 424,
+          "to": 544,
+          "match": 0.955
+        },
+        {
+          "start": 83.64,
+          "end": 101.35,
+          "paragraph": 2,
+          "from": 0,
+          "to": 218,
+          "match": 0.917
+        },
+        {
+          "start": 101.35,
+          "end": 118.42,
+          "paragraph": 2,
+          "from": 218,
+          "to": 415,
+          "match": 0.833
+        },
+        {
+          "start": 118.42,
+          "end": 128.5,
+          "paragraph": 2,
+          "from": 415,
+          "to": 529,
+          "match": 0.957
+        },
+        {
+          "start": 128.5,
+          "end": 143.41,
+          "paragraph": 3,
+          "from": 0,
+          "to": 206,
+          "match": 0.944
+        },
+        {
+          "start": 143.41,
+          "end": 149.08,
+          "paragraph": 3,
+          "from": 206,
+          "to": 266,
+          "match": 1.0
+        },
+        {
+          "start": 149.08,
+          "end": 167.47,
+          "paragraph": 4,
+          "from": 0,
+          "to": 246,
+          "match": 0.75
+        },
+        {
+          "start": 167.47,
+          "end": 182.51,
+          "paragraph": 4,
+          "from": 246,
+          "to": 462,
+          "match": 0.972
+        },
+        {
+          "start": 182.51,
+          "end": 197.24,
+          "paragraph": 4,
+          "from": 462,
+          "to": 643,
+          "match": 0.875
+        },
+        {
+          "start": 197.24,
+          "end": 216.66,
+          "paragraph": 5,
+          "from": 0,
+          "to": 226,
+          "match": 0.917
+        },
+        {
+          "start": 216.66,
+          "end": 233.8,
+          "paragraph": 5,
+          "from": 226,
+          "to": 438,
+          "match": 0.972
+        },
+        {
+          "start": 233.8,
+          "end": 251.39,
+          "paragraph": 5,
+          "from": 438,
+          "to": 637,
+          "match": 1.0
+        },
+        {
+          "start": 251.39,
+          "end": 256.56,
+          "paragraph": 5,
+          "from": 637,
+          "to": 687,
+          "match": 1.0
+        },
+        {
+          "start": 256.56,
+          "end": 274.78,
+          "paragraph": 6,
+          "from": 0,
+          "to": 201,
+          "match": 1.0
+        },
+        {
+          "start": 274.78,
+          "end": 287.53,
+          "paragraph": 6,
+          "from": 201,
+          "to": 382,
+          "match": 1.0
+        },
+        {
+          "start": 287.53,
+          "end": 303.06,
+          "paragraph": 6,
+          "from": 382,
+          "to": 577,
+          "match": 1.0
+        },
+        {
+          "start": 303.06,
+          "end": 320.31,
+          "paragraph": 6,
+          "from": 577,
+          "to": 763,
+          "match": 1.0
+        },
+        {
+          "start": 320.31,
+          "end": 322.6,
+          "paragraph": 6,
+          "from": 763,
+          "to": 778,
+          "match": 1.0
+        },
+        {
+          "start": 322.6,
+          "end": 329.88,
+          "paragraph": 7,
+          "from": 0,
+          "to": 73,
+          "match": 1.0
+        },
+        {
+          "start": 329.88,
+          "end": 343.56,
+          "paragraph": 8,
+          "from": 0,
+          "to": 117,
+          "match": 1.0
+        },
+        {
+          "start": 343.56,
+          "end": 358.23,
+          "paragraph": 9,
+          "from": 0,
+          "to": 179,
+          "match": 1.0
+        },
+        {
+          "start": 358.23,
+          "end": 374.54,
+          "paragraph": 9,
+          "from": 179,
+          "to": 393,
+          "match": 1.0
+        },
+        {
+          "start": 374.54,
+          "end": 389.05,
+          "paragraph": 9,
+          "from": 393,
+          "to": 540,
+          "match": 0.966
+        },
+        {
+          "start": 389.05,
+          "end": 403.71,
+          "paragraph": 10,
+          "from": 0,
+          "to": 186,
+          "match": 0.972
+        },
+        {
+          "start": 403.71,
+          "end": 424.93,
+          "paragraph": 10,
+          "from": 186,
+          "to": 386,
+          "match": 0.972
+        },
+        {
+          "start": 424.93,
+          "end": 439.73,
+          "paragraph": 10,
+          "from": 386,
+          "to": 591,
+          "match": 0.914
+        },
+        {
+          "start": 439.73,
+          "end": 455.27,
+          "paragraph": 11,
+          "from": 0,
+          "to": 207,
+          "match": 1.0
+        },
+        {
+          "start": 455.27,
+          "end": 470.68,
+          "paragraph": 11,
+          "from": 207,
+          "to": 402,
+          "match": 0.972
+        },
+        {
+          "start": 470.68,
+          "end": 486.01,
+          "paragraph": 11,
+          "from": 402,
+          "to": 614,
+          "match": 1.0
+        },
+        {
+          "start": 486.01,
+          "end": 499.51,
+          "paragraph": 11,
+          "from": 614,
+          "to": 802,
+          "match": 0.944
+        },
+        {
+          "start": 499.51,
+          "end": 501.75,
+          "paragraph": 11,
+          "from": 802,
+          "to": 832,
+          "match": 1.0
+        },
+        {
+          "start": 501.75,
+          "end": 516.09,
+          "paragraph": 12,
+          "from": 0,
+          "to": 202,
+          "match": 1.0
+        },
+        {
+          "start": 516.09,
+          "end": 532.84,
+          "paragraph": 12,
+          "from": 202,
+          "to": 419,
+          "match": 0.944
+        },
+        {
+          "start": 532.84,
+          "end": 551.23,
+          "paragraph": 12,
+          "from": 419,
+          "to": 635,
+          "match": 0.972
+        },
+        {
+          "start": 551.23,
+          "end": 552.93,
+          "paragraph": 12,
+          "from": 635,
+          "to": 652,
+          "match": 1.0
+        },
+        {
+          "start": 552.93,
+          "end": 566.02,
+          "paragraph": 13,
+          "from": 0,
+          "to": 186,
+          "match": 1.0
+        },
+        {
+          "start": 566.02,
+          "end": 579.98,
+          "paragraph": 13,
+          "from": 186,
+          "to": 381,
+          "match": 1.0
+        },
+        {
+          "start": 579.98,
+          "end": 594.8,
+          "paragraph": 13,
+          "from": 381,
+          "to": 581,
+          "match": 0.972
+        },
+        {
+          "start": 594.8,
+          "end": 607.29,
+          "paragraph": 13,
+          "from": 581,
+          "to": 755,
+          "match": 0.938
+        },
+        {
+          "start": 607.29,
+          "end": 622.06,
+          "paragraph": 14,
+          "from": 0,
+          "to": 192,
+          "match": 1.0
+        },
+        {
+          "start": 622.06,
+          "end": 638.35,
+          "paragraph": 14,
+          "from": 192,
+          "to": 396,
+          "match": 0.917
+        },
+        {
+          "start": 638.35,
+          "end": 658.91,
+          "paragraph": 14,
+          "from": 396,
+          "to": 599,
+          "match": 1.0
+        },
+        {
+          "start": 658.91,
+          "end": 677.33,
+          "paragraph": 14,
+          "from": 599,
+          "to": 793,
+          "match": 0.944
+        },
+        {
+          "start": 677.33,
+          "end": 689.0,
+          "paragraph": 14,
+          "from": 793,
+          "to": 888,
+          "match": 1.0
+        }
+      ],
+      "landmarks": [
+        {
+          "label": "Aufbruch",
+          "needle": "Eines Abends",
+          "time": 5.88,
+          "cue": 0,
+          "paragraph": 0
+        },
+        {
+          "label": "Die zweite Figur",
+          "needle": "sein Vetter",
+          "time": 88.07,
+          "cue": 5,
+          "paragraph": 2
+        },
+        {
+          "label": "Jude und Natur",
+          "needle": "die Natur, das ist zweierlei",
+          "time": 143.15,
+          "cue": 8,
+          "paragraph": 3
+        },
+        {
+          "label": "Bild und Schleier",
+          "needle": "ein beweglicher Schleier",
+          "time": 176.76,
+          "cue": 11,
+          "paragraph": 4
+        },
+        {
+          "label": "Wortlücke",
+          "needle": "eine Wortlücke",
+          "time": 219.07,
+          "cue": 14,
+          "paragraph": 5
+        },
+        {
+          "label": "Sprache ohne Ich und Du",
+          "needle": "ohne ich und ohne du",
+          "time": 312.37,
+          "cue": 20,
+          "paragraph": 6
+        },
+        {
+          "label": "Ich und Gedächtnis",
+          "needle": "ich mit dem Gedächtnis",
+          "time": 408.3,
+          "cue": 28,
+          "paragraph": 10
+        },
+        {
+          "label": "Die Kerze",
+          "needle": "ich liebte die Kerze",
+          "time": 501.75,
+          "cue": 35,
+          "paragraph": 12
+        },
+        {
+          "label": "Schlussbewegung",
+          "needle": "ich auf dem Weg",
+          "time": 685.73,
+          "cue": 47,
+          "paragraph": 14
+        }
+      ],
+      "editionNote": "Mitlesefassung aus der bereitgestellten Lesung, redaktionell in Hörabschnitte gegliedert. Zeichensetzung und Schreibweisen sind keine textkritische Edition; für wissenschaftliche Zitate eine Druckausgabe heranziehen.",
+      "text": [
+        "Eines Abends, die Sonne, und nicht nur sie, war untergegangen, da ging, trat aus seinem Häusel und ging der Jud, der Jud und Sohn eines Juden. Und mit ihm ging sein Name, der unaussprechliche, ging und kam, kam daher gezockelt, ließ sich hören, kam am Stock, kam über den Stein, hörst du mich, du hörst mich, ich bin's, ich, ich und der, den du hörst, zu hören vermeinst, ich und der andere.",
+        "Er ging also, das war zu hören, ging eines Abends, da einiges untergegangen war, ging unterm Gewölk, ging im Schatten, dem eigenen und dem Fremden, denn der Jud, du weißt's, was hat er schon, das ihm auch wirklich gehört, das nicht geborgt wäre, ausgeliehen und nicht zurückgegeben. Da ging er also und kam, kam daher auf der Straße, der schönen, der unvergleichlichen, ging wie Lenz durchs Gebirg, er, den man hatte wohnen lassen unten, wo er hingehört, in den Niederungen, er, der Jud, kam und kam, kam, ja, auf der Straße daher, der schönen.",
+        "Und wer denkst du, kam ihm entgegen, entgegen kam ihm sein Vetter, sein Vetter und Geschwisterkind, der um ein Vierteljudenleben ältere, groß kam er daher, kam auch er, in dem Schatten, dem Geborgten, denn welcher, so frag und frag ich, kommt, da Gott ihn hat einen Juden sein lassen, daher mit Eigenem? Kam, kam Groß, kam dem andern entgegen, Groß kam auf Klein zu, und Klein, der Jud, hieß seinen Stock schweigen vor dem Stock des Juden Groß. So schwieg auch der Stein, und es war still im Gebirg, wo sie gingen, der und jener.",
+        "Still war's also, still dort oben im Gebirg, nicht lang war's still, denn, wenn der Jud daherkommt und begegnet einem zweiten, dann ist's bald vorbei mit dem Schweigen, auch im Gebirg, denn der Jud und die Natur, das ist zweierlei, immer noch, auch heute, auch hier.",
+        "Da stehen sie also, die Geschwisterkinder, links blüht der Türkenbund, blüht, wild, blüht wie nirgends, und rechts, da steht die Rapunzel und Dianthus superbus, die Prachtnelke, steht nicht weit davon. Aber sie, die Geschwisterkinder, sie haben, Gott sei es geklagt, keine Augen, genauer sie haben, auch sie Augen, aber da hängt ein Schleier davor, nicht davor, nein, dahinter, ein beweglicher Schleier, kaum tritt ein Bild ein, so bleibt's hängen im Geweb, und schon ist ein Faden zur Stelle, der sich da spinnt, sich herumspinnt ums Bild, ein Schleierfaden, spinnt sich ums Bild herum und zeugt ein Kind mit ihm, halb Bild und halb Schleier.",
+        "Armer Türkenbund, arme Rapunzel, da stehen sie, die Geschwisterkinder, auf einer Straße, stehen sie im Gebirg, es schweigt der Stock, es schweigt der Stein, und das Schweigen ist kein Schweigen, kein Wort ist da verstummt und kein Satz, eine Pause ist bloß, eine Wortlücke ist's, eine Leerstelle ist's, du siehst alle Silben umherstehen, Zunge sind sie und Mund, diese beiden wie zuvor, und in den Augen hängt ihnen der Schleier und ihr, ihr Armen, ihr steht nicht und blüht nicht, ihr seid nicht vorhanden, und der Juli ist kein Juli. Die Geschwätzigen! Haben sich auch jetzt, da die Zunge blöd gegen die Zähne stößt und die Lippe sich nicht ründet, etwas zu sagen, Gut, lass sie reden.",
+        "Bist gekommen von weit, bist gekommen hierher? Bin ich. Bin ich gekommen wie du. Weiß ich, weißt du, weißt du und siehst, es hat sich die Erde gefaltet, hier oben hat sich gefaltet, einmal und zweimal und dreimal und hat sich aufgetan in der Mitte, und in der Mitte steht ein Wasser und das Wasser ist grün und das Grüne ist weiß und das Weiße kommt noch von weiter oben, kommt von den Gletschern, man könnte aber man soll's nicht sagen, das ist die Sprache, die hier gilt, das Grüne mit dem Weißen drin, eine Sprache nicht für dich und nicht für mich, denn frage ich, für wen ist sie denn gedacht, die Erde, nicht für dich, sage ich ist sie gedacht und nicht für mich, eine Sprache je nun ohne ich und ohne du, lauter er, lauter es, verstehst du, lauter sie und nichts als das.",
+        "Verstehe. Verstehe ich. Bin ja gekommen von weit, bin ja gekommen wie du.",
+        "Weiß ich, weißt du und willst mich fragen und bist gekommen trotzdem, bist trotzdem gekommen hierher, warum und wozu,",
+        "weil ich habe reden müssen, vielleicht zu mir oder zu dir, reden haben müssen mit dem Mund und mit der Zunge nicht nur mit dem Stock, denn zu wem redet er der Stock, er redet zum Stein und der Stein zu wem redet der, zu wem Geschwisterkind soll er reden, er redet nicht, er spricht und wer spricht Geschwisterkind, der redet zu niemand, der spricht, weil niemand ihn hört, niemand und niemand und dann sagt er, er und nicht sein Mund und nicht seine Zunge, sagt er und nur er, hörst du, hörst du sagt er, ich weiß Geschwisterkind, ich weiß,",
+        "hörst du sagt er, ich bin da, ich bin da, ich bin hier, ich bin gekommen, gekommen mit dem Stock, ich und kein anderer, ich und nicht er, ich mit meiner Stunde der Unverdienten, ich den es getroffen hat, ich den es nicht getroffen hat, ich mit dem Gedächtnis, ich, der Gedächtnisschwache, ich, ich, ich, sagt er, sagt er, hörst du sagt er und hörst du, gewiß hörst du, der sagt nichts, der antwortet nicht, denn hörst du, das ist der mit den Gletschern, der Er, der sich gefaltet hat, dreimal und nicht für die Menschen, der Grün-und-Weiße dort, der mit dem Türkenbund, der mit der Rapunzel,",
+        "aber ich Geschwisterkind, ich, der ich da stehe auf dieser Straße hier, auf die ich nicht hingehöre, heute, jetzt, da sie untergegangen ist, sie und ihr Licht, ich hier mit dem Schatten, dem eigenen und dem Fremden, ich, ich der ich dir sagen kann, auf dem Stein bin ich gelegen damals, du weißt, auf den Steinfliesen und neben mir da sind sie gelegen, die anderen, die wie ich waren, die anderen, die anders waren als ich und genau so die Geschwisterkinder und sie lagen da und schliefen, schliefen und schliefen nicht und sie träumten und träumten nicht und sie liebten mich nicht und ich liebte sie nicht, denn ich war einer, und wer will einen lieben und sie waren viele, mehr noch als da herum lagen um mich und wer will alle lieben können und ich verschweigs dir nicht, ich liebte sie nicht, sie die mich nicht lieben konnten,",
+        "ich liebte die Kerze, die da brannte, links im Winkel, ich liebte sie, weil sie herunter brannte, nicht weil sie herunter brannte, denn sie, das war ja seine Kerze, die Kerze, die er, der Vater unserer Mütter angezündet hatte, weil an jenem Abend ein Tag begann ein bestimmter, ein Tag, der der siebte war, der siebte auf den der erste folgen sollte, der siebte und nicht der letzte, ich liebte, Geschwisterkind, nicht sie, ich liebte ihr Herunterbrennen und weißt du, ich habe nichts mehr geliebt seither, nichts, nein, oder vielleicht das, was da herunter brannte, wie jene Kerze an jenem Tag, am siebten und nicht am letzten, nicht am letzten, nein,",
+        "denn da bin ich ja hier auf dieser Straße, von der sie sagen, dass sie schön ist, bin ich ja hier, beim Türkenbund und bei der Rapunzel und hundert Schritt weiter, da drüben, wo ich hin kann, da geht die Lärche zur Zirbelkiefer hinauf, ich seh es, ich seh es und seh es nicht und mein Stock der hat gesprochen, hat gesprochen zum Stein und mein Stock, der schweigt jetzt still und der Stein sagst du, der kann sprechen und in meinem Aug, da hängt der Schleier, der Bewegliche, da hängen die Schleier die Beweglichen, da hast du den einen gelüftet und da hängt schon der zweite und der Stern, denn ja, der steht jetzt überm Gebirg, wenn er dahin rein will, so wird er Hochzeit halten müssen und bald nicht mehr er sein, sondern halb Schleier und halb Stern",
+        "und ich weiß, ich weiß, Geschwisterkind, ich weiß, ich bin dir begegnet hier und geredet haben wir viel und die Falten dort, du weißt nicht für die Menschen sind sie da und nicht für uns, die wir hier gingen und einander trafen, wir hier unterm Stern, wir, die Juden, die da kamen, wie Lenz durchs Gebirg, du groß und ich klein, du der Geschwätzige und ich der Geschwätzige, wir mit den Stöcken, wir mit unseren Namen, den unaussprechlichen, wir mit unserem Schatten, dem eigenen und dem Fremden, du hier und ich hier, ich hier, ich, ich, der ich dir all das sagen kann, sagen hätte können, der ich dir es nicht sage und nicht gesagt habe, ich mit dem Türkenbund links, ich mit der Rapunzel, ich mit der heruntergebrannten Kerze, ich mit dem Tag, ich mit dem Tagen, ich hier und ich dort, ich begleitet vielleicht jetzt von der Liebe der Nicht-Geliebten, ich auf dem Weg hier zu mir oben."
+      ]
+    }
+  }
+}
