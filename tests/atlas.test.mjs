@@ -65,3 +65,13 @@ test('meridian explanations are linked from the map and stay on their own topic 
  assert.ok(a.meridianGuide('celan').includes('href="#leseraum/meridian/herkunft"'));
  assert.ok(a.meridianGuide('vergleich').includes('kein zweiter von Celan benannter Meridian'));
 });
+
+
+test('the closing task is reachable from the explanation and writes to the common journal',()=>{
+ const task=a.meridianGuide('aufgabe');
+ for(const topic of ['geografie','celan'])assert.ok(a.meridianGuide(topic).includes('href="#meridianbild/aufgabe"'));
+ assert.ok(task.includes('href="#leseraum/meridian/herkunft"'));
+ assert.ok(task.includes('href="#leseraum/meridian/kreis"'));
+ assert.ok(task.includes('data-field="meridianschluss"'));
+ assert.ok(a.pages.journal().includes('data-field="meridianschluss"'));
+});
