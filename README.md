@@ -101,3 +101,7 @@ Unter `#fatalismus/brief`, `#fatalismus/vergleich` und `#fatalismus/transfer` er
 ### Oberlins Sammlung und weitere Lesung
 
 `#elsass/sammlung` erschliesst alle 25 Einträge der verlinkten Museumsübersicht mit 26 Originalabbildungen, fünf Themen, Objektwahl, Quellenlinks und einem zusätzlichen Notizfeld im vorhandenen Notizbuch. Ein bestimmter Gegenstand lässt sich über `#elsass/sammlung/europa` oder einen der übrigen Objekt-IDs direkt öffnen. Die Abbildungen werden vom Museumsserver geladen. Geprüfte Metadaten stehen in `materialien/oberlin-sammlung.json`; die Darstellung liegt in `oberlin.js`. Die ergänzende Spotify-Lesung von Sven Görtz erscheint bei Lenz und aufklappbar im Leseraum. Sie ersetzt nicht die synchronisierte Aufnahme von Wanja Mues.
+
+### Der Geschichte folgen
+
+Der feste Beginn führt über `#jakoblenz` (historischer Schriftsteller) zu Oberlin, Büchners *Lenz*, Celans *Gespräch im Gebirg* und *Der Meridian*. `readingOrder` bestimmt die Weiter-/Zurück-Links unabhängig von ergänzenden Filmen, Biografien und Nietzsche-Materialien. Die Startseite erklärt, weshalb Celans Kartenbild zu Lenz’ Herkunft zurückführt, und bietet einen eindeutigen Beginn statt eines gleichrangigen Auswahlprogramms. Das zusätzliche Notizfeld `lenzvorbuechner` verwendet das vorhandene Sicherungsschema.

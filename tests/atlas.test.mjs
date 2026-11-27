@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={meridianGuide,stationThreads,learningStations,readerWeave,atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
+vm.runInContext(fs.readFileSync(new URL('../content.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../atlas.js',import.meta.url),'utf8')+'\n'+fs.readFileSync(new URL('../journeys.js',import.meta.url),'utf8')+'\nthis.atlas={readingOrder,pagination,meridianGuide,stationThreads,learningStations,readerWeave,atlasPlaces,googleMapURL,globeProjection,globeSVG,pages,placeMaterials,placePage,placeDestination,geographicHome,meridianOrigins,celanMeridianLongitude,meridianExplainer};',ctx);
 const a=ctx.atlas;
 test('the home embeds one shared map and preserves access to all seven locations',()=>{
  const html=a.geographicHome(),url=new URL(a.googleMapURL());
@@ -35,7 +35,7 @@ test('Celan reference connects the three distinct origins near 26 E and starts w
 
 
 test('learning paths connect existing stations, places and readers in both directions',()=>{
- const home=a.learningStations();assert.equal((home.match(/class="route-stop"/g)||[]).length,10);
+ const home=a.learningStations();assert.equal((home.match(/class="route-stop"/g)||[]).length,7);
  for(const [station,thread] of Object.entries(a.stationThreads)){
   assert.ok(a.pages[station]||station==='wege',station);
   assert.ok(thread.transfer.length>80);
@@ -74,4 +74,14 @@ test('the closing task is reachable from the explanation and writes to the commo
  assert.ok(task.includes('href="#leseraum/meridian/kreis"'));
  assert.ok(task.includes('data-field="meridianschluss"'));
  assert.ok(a.pages.journal().includes('data-field="meridianschluss"'));
+});
+
+
+test('the story starts with the historical Lenz and continues from Oberlin through Buechner to Celan',()=>{
+ assert.deepEqual(Array.from(a.readingOrder).slice(0,6),['auftakt','jakoblenz','elsass','lenz','gespraech','meridian']);
+ for(const id of a.readingOrder)assert.ok(a.pages[id],id);
+ for(const [from,to] of [['jakoblenz','elsass'],['elsass','lenz'],['lenz','gespraech'],['gespraech','meridian']])assert.ok(a.pagination(from).includes('href="#'+to+'"><small>Weiter</small>'));
+ const home=a.learningStations();assert.ok(home.includes('href="#jakoblenz"'));assert.ok(!home.includes('Wo möchtest du weiterlesen?'));
+ assert.ok(a.pages.jakoblenz().includes('data-field="lenzvorbuechner"'));
+ assert.ok(a.pages.journal().includes('data-field="lenzvorbuechner"'));
 });
