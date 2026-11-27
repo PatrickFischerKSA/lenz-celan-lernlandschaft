@@ -97,3 +97,7 @@ Celans Mitlesefassung stammt aus der bereitgestellten Aufnahme. Schreibweise, Ze
 ### Fatalismusbrief als Vertiefung
 
 Unter `#fatalismus/brief`, `#fatalismus/vergleich` und `#fatalismus/transfer` ergänzt ein Modul von 15–20 Minuten die bestehenden Stationen. Fünf auswählbare Analysefokusse markieren den unveränderten Briefauszug; vier Vergleichshypothesen bieten Belege und aufklappbare Gegenproben. Drei Transferantworten sowie Analyse- und Vergleichsnotizen verwenden das vorhandene Journal einschliesslich Sicherung und Export. Kurzlinks erschliessen das Modul von Lenz, Gespräch, Meridian, Lebenswegen, Textverbindungen und Leseraum aus; die vorhandenen Lerninhalte bleiben erhalten. Quellenprüfung und Editionsunterschiede stehen im Quellenprotokoll.
+
+### Oberlins Sammlung und weitere Lesung
+
+`#elsass/sammlung` erschliesst alle 25 Einträge der verlinkten Museumsübersicht mit 26 Originalabbildungen, fünf Themen, Objektwahl, Quellenlinks und einem zusätzlichen Notizfeld im vorhandenen Notizbuch. Ein bestimmter Gegenstand lässt sich über `#elsass/sammlung/europa` oder einen der übrigen Objekt-IDs direkt öffnen. Die Abbildungen werden vom Museumsserver geladen. Geprüfte Metadaten stehen in `materialien/oberlin-sammlung.json`; die Darstellung liegt in `oberlin.js`. Die ergänzende Spotify-Lesung von Sven Görtz erscheint bei Lenz und aufklappbar im Leseraum. Sie ersetzt nicht die synchronisierte Aufnahme von Wanja Mues.

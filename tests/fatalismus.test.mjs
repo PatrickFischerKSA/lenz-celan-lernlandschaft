@@ -44,5 +44,5 @@ test('every new Meridian deep link resolves to a real paragraph in the unchanged
    assert.ok(anchors[key],key);assert.ok(text.some(p=>p.includes(anchors[key])),key);
   }
  }
- assert.equal((f.fatalismusPage('transfer').match(/Differenzierten Lösungsvorschlag öffnen/g)||[]).length,3);
+ assert.equal((f.fatalismusPage('transfer').match(/Eine mögliche Antwort lesen/g)||[]).length,3);
 });
